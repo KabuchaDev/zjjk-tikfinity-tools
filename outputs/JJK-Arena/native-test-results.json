@@ -1,0 +1,81 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "command": "jjkarena start",
+      "result": "Match started. Ronaldo=red, Messi=blue.\n"
+    },
+    {
+      "command": "jjkarena testprotection",
+      "result": "Terrain protection: level=true chunk=true destroy=true hooks=true,true,true\n"
+    },
+    {
+      "command": "jjkarena spawn red basic 3 NativeRed",
+      "result": "Queued 3 basic for red; queue=3; active=0\n"
+    },
+    {
+      "command": "jjkarena spawn blue basic 3 NativeBlue",
+      "result": "Queued 3 basic for blue; queue=3; active=0\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=1000 blueHP=1000 maxHP=1000 red=3 blue=3 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=0:0 intermission=0 redGate=true blueGate=true protected=129695 blocked=3 temporary=1122\nred basic hp=30.0/30.0 damage=12.0 x=-49.7 z=-16.3 target=miwa_kasumi skill=0 targetTicks=49 effects=[]\nblue basic hp=60.0/60.0 damage=19.0 x=38.1 z=0.5 target=cursed_spirit_grade_31 skill=0 targetTicks=49 effects=[]\nred basic hp=30.0/30.0 damage=12.0 x=-53.7 z=18.9 target=miwa_kasumi skill=0 targetTicks=39 effects=[]\nblue basic hp=60.0/60.0 damage=19.0 x=51.3 z=-17.5 target=cursed_spirit_grade_31 skill=0 targetTicks=39 effects=[]\nred basic hp=30.0/30.0 damage=12.0 x=-54.1 z=0.7 target=miwa_kasumi skill=0 targetTicks=29 effects=[]\nblue basic hp=60.0/60.0 damage=19.0 x=53.2 z=18.6 target=cursed_spirit_grade_31 skill=0 targetTicks=29 effects=[]\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=1000 blueHP=1000 maxHP=1000 red=2 blue=3 queuedRed=0 queuedBlue=0 hits=1 coreHits=0 wins=0:0 intermission=0 redGate=true blueGate=true protected=129695 blocked=3 temporary=1122\nblue basic hp=60.0/60.0 damage=19.0 x=-28.7 z=-9.8 target=cursed_spirit_grade_31 skill=0 targetTicks=149 effects=[cooldown_time_simple_domain]\nred basic hp=30.0/30.0 damage=12.0 x=-32.7 z=16.5 target=miwa_kasumi skill=0 targetTicks=139 effects=[]\nblue basic hp=60.0/60.0 damage=19.0 x=-17.3 z=-13.8 target=cursed_spirit_grade_31 skill=0 targetTicks=139 effects=[]\nred basic hp=30.0/30.0 damage=12.0 x=-31.2 z=0.9 target=miwa_kasumi skill=0 targetTicks=129 effects=[]\nblue basic hp=60.0/60.0 damage=19.0 x=-25.7 z=18.5 target=cursed_spirit_grade_31 skill=3105 targetTicks=129 effects=[simple_domain]\n"
+    },
+    {
+      "command": "forge tps",
+      "result": "Dim minecraft:overworld (minecraft:overworld): Mean tick time: 0.669 ms. Mean TPS: 20.000\nDim jujutsucrafts:tombs_of_the_star_corridor (jujutsucrafts:tombs_of_the_star_corridor): Mean tick time: 0.016 ms. Mean TPS: 20.000\nDim minecraft:the_end (minecraft:the_end): Mean tick time: 0.006 ms. Mean TPS: 20.000\nDim minecraft:the_nether (minecraft:the_nether): Mean tick time: 0.006 ms. Mean TPS: 20.000\nDim lostcities:lostcity (lostcities:lostcity): Mean tick time: 0.010 ms. Mean TPS: 20.000\nDim jjkarena:battlefield (jjkarena:battlefield): Mean tick time: 3.280 ms. Mean TPS: 20.000\nDim jujutsucraft:cursed_spirit_manipulation_dimension (jujutsucraft:cursed_spirit_manipulation_dimension): Mean tick time: 0.017 ms. Mean TPS: 20.000\nOverall: Mean tick time: 4.451 ms. Mean TPS: 20.000\n"
+    },
+    {
+      "command": "jjkarena reset",
+      "result": "Troops cleared, cores restored. Start when ready.\n"
+    },
+    {
+      "command": "jjkarena start",
+      "result": "Match started. Ronaldo=red, Messi=blue.\n"
+    },
+    {
+      "command": "jjkarena spawn red basic 1 GateAttacker",
+      "result": "Queued 1 basic for red; queue=1; active=0\n"
+    },
+    {
+      "command": "jjkarena spawn blue basic 1 GateDefender",
+      "result": "Queued 1 basic for blue; queue=1; active=0\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield as @e[tag=jjkarena_red] run data merge entity @s {NoAI:1b}",
+      "result": "Modified entity data of RONALDO | GateAttacker\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield as @e[tag=jjkarena_blue] run data merge entity @s {NoAI:1b}",
+      "result": "Modified entity data of MESSI | GateDefender\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield as @e[tag=jjkarena_red] run tp @s 64 81 0",
+      "result": "Teleported RONALDO | GateAttacker to 64.500000, 81.000000, 0.500000\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield as @e[tag=jjkarena_blue] run tp @s -70 81 30",
+      "result": "Teleported MESSI | GateDefender to -69.500000, 81.000000, 30.500000\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=1000 blueHP=1000 maxHP=1000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=0:0 intermission=0 redGate=true blueGate=true protected=129695 blocked=3 temporary=1122\nred basic hp=30.0/30.0 damage=12.0 x=64.5 z=0.5 target=miwa_kasumi skill=0 targetTicks=91 effects=[]\nblue basic hp=60.0/60.0 damage=19.0 x=-69.5 z=30.5 target=cursed_spirit_grade_31 skill=0 targetTicks=91 effects=[]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run kill @e[tag=jjkarena_blue]",
+      "result": "Killed MESSI | GateDefender\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=1000 blueHP=964 maxHP=1000 red=1 blue=0 queuedRed=0 queuedBlue=0 hits=1 coreHits=3 wins=0:0 intermission=0 redGate=true blueGate=false protected=129695 blocked=3 temporary=561\nred basic hp=30.0/30.0 damage=12.0 x=64.5 z=0.5 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "command": "jjkarena reset",
+      "result": "Troops cleared, cores restored. Start when ready.\n"
+    }
+  ]
+}

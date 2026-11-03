@@ -1,0 +1,6 @@
+{
+  "tikfinityUrl": "ws://127.0.0.1:21213/",
+  "commentCooldownSeconds": 8,
+  "maxPendingCommands": 60,
+  "giftMappings": {}
+}

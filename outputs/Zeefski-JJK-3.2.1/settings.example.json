@@ -1,0 +1,10 @@
+{
+  "javaPath": "C:\\Users\\PHAT\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-gamma\\windows\\java-runtime-gamma\\bin\\java.exe",
+  "nodePath": "C:\\Users\\PHAT\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+  "serverPort": 25566,
+  "rconPort": 25576,
+  "rconPassword": "CHANGE_ME_RCONPASSWORD",
+  "modpack": "ZJJK-3.2.1",
+  "minecraft": "1.20.1",
+  "forge": "47.4.3"
+}

@@ -1,0 +1,175 @@
+{
+  "domainObserved": false,
+  "results": [
+    {
+      "at": "2026-10-06T07:20:18.880Z",
+      "command": "jjkarena start",
+      "result": "Match started. Ronaldo=red, Messi=blue.\n"
+    },
+    {
+      "at": "2026-10-06T07:20:18.883Z",
+      "command": "jjkarena spawn red boss 1 SukunaTest",
+      "result": "Queued 1 boss for red; queue=1; active=0\n"
+    },
+    {
+      "at": "2026-10-06T07:20:18.885Z",
+      "command": "jjkarena spawn blue boss 1 GojoTest",
+      "result": "Queued 1 boss for blue; queue=1; active=0\n"
+    },
+    {
+      "at": "2026-10-06T07:20:23.892Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=11 coreHits=0 wins=3:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=0 temporary=1122\nred boss hp=727.6/800.0 damage=79.0 x=-16.9 z=2.4 target=gojo_satoru skill=4202 targetTicks=109 effects=[domain_amplification]\nblue boss hp=850.0/850.0 damage=91.0 x=-6.5 z=-9.7 target=sukuna skill=4204 targetTicks=109 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:20:28.907Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=12 coreHits=0 wins=3:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=0 temporary=1122\nred boss hp=195.6/800.0 damage=63.2 x=-31.7 z=25.7 target=gojo_satoru skill=-1000 targetTicks=210 effects=[]\nblue boss hp=850.0/850.0 damage=91.0 x=-30.7 z=23.7 target=sukuna skill=0 targetTicks=210 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:20:33.921Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=14 coreHits=0 wins=3:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=0 temporary=1122\nred boss hp=174.9/800.0 damage=79.0 x=10.8 z=-22.6 target=gojo_satoru skill=4200 targetTicks=310 effects=[domain_amplification]\nblue boss hp=850.0/850.0 damage=91.0 x=15.3 z=-19.7 target=sukuna skill=4204 targetTicks=310 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:20:38.926Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=17 coreHits=0 wins=3:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=0 temporary=1122\nred boss hp=240.8/800.0 damage=79.0 x=0.8 z=-25.0 target=gojo_satoru skill=4202 targetTicks=410 effects=[domain_amplification]\nblue boss hp=850.0/850.0 damage=91.0 x=7.5 z=-19.3 target=sukuna skill=0 targetTicks=410 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:20:43.945Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=0 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=0 wins=3:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue boss hp=850.0/850.0 damage=91.0 x=0.0 z=-19.4 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:20:48.955Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=0 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=0 wins=3:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue boss hp=850.0/850.0 damage=91.0 x=-17.8 z=-14.5 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:20:53.967Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=0 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=0 wins=3:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue boss hp=850.0/850.0 damage=91.0 x=-34.3 z=-9.5 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:20:58.984Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=0 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=0 wins=3:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue boss hp=850.0/850.0 damage=91.0 x=-52.2 z=-4.4 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:21:03.995Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=9727 blueHP=10000 maxHP=10000 red=0 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=3 wins=3:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue boss hp=850.0/850.0 damage=91.0 x=-65.5 z=0.6 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:21:09.004Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=9272 blueHP=10000 maxHP=10000 red=0 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=8 wins=3:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue boss hp=850.0/850.0 damage=91.0 x=-65.5 z=0.6 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:21:14.016Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=8817 blueHP=10000 maxHP=10000 red=0 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=13 wins=3:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue boss hp=850.0/850.0 damage=91.0 x=-65.5 z=0.6 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:21:19.023Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=8362 blueHP=10000 maxHP=10000 red=0 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=18 wins=3:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue boss hp=850.0/850.0 damage=91.0 x=-64.4 z=1.6 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:21:24.036Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=7907 blueHP=10000 maxHP=10000 red=0 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=23 wins=3:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue boss hp=850.0/850.0 damage=91.0 x=-65.5 z=0.6 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:21:29.039Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=7452 blueHP=10000 maxHP=10000 red=0 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=28 wins=3:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue boss hp=850.0/850.0 damage=91.0 x=-65.5 z=0.7 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:21:34.054Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=6997 blueHP=10000 maxHP=10000 red=0 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=33 wins=3:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue boss hp=850.0/850.0 damage=91.0 x=-65.5 z=0.7 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:21:39.057Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=6542 blueHP=10000 maxHP=10000 red=0 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=38 wins=3:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue boss hp=850.0/850.0 damage=91.0 x=-65.5 z=0.7 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:21:44.065Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=6087 blueHP=10000 maxHP=10000 red=0 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=43 wins=3:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue boss hp=850.0/850.0 damage=91.0 x=-65.5 z=0.7 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:21:49.076Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=5632 blueHP=10000 maxHP=10000 red=0 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=48 wins=3:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue boss hp=850.0/850.0 damage=91.0 x=-65.5 z=0.7 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:21:54.083Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=5177 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=53 wins=3:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=0 temporary=1122\nblue boss hp=850.0/850.0 damage=91.0 x=-61.2 z=0.5 target=sukuna_perfect skill=0 targetTicks=13 effects=[]\nred sukuna_heian hp=900.0/900.0 damage=122.0 x=-55.0 z=-18.0 target=gojo_satoru skill=0 targetTicks=13 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:21:59.097Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=5177 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=28 coreHits=53 wins=3:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=0 temporary=1122\nblue boss hp=850.0/850.0 damage=91.0 x=-48.9 z=3.1 target=sukuna_perfect skill=0 targetTicks=114 effects=[]\nred sukuna_heian hp=870.4/900.0 damage=122.0 x=-29.0 z=12.0 target=gojo_satoru skill=0 targetTicks=114 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:22:04.107Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=5177 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=31 coreHits=53 wins=3:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=144 temporary=1122\nblue boss hp=448.8/850.0 damage=91.0 x=-18.1 z=14.3 target=sukuna_perfect skill=0 targetTicks=214 effects=[]\nred sukuna_heian hp=300.0/900.0 damage=122.0 x=-11.8 z=15.7 target=gojo_satoru skill=0 targetTicks=214 effects=[]\n"
+    },
+    {
+      "at": "2026-10-06T07:22:09.124Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=5177 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=31 coreHits=53 wins=3:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=144 temporary=1122\nblue boss hp=448.8/850.0 damage=91.0 x=-7.9 z=11.5 target=sukuna_perfect skill=4204 targetTicks=314 effects=[]\nred sukuna_heian hp=322.5/900.0 damage=122.0 x=-8.6 z=11.5 target=gojo_satoru skill=4202 targetTicks=314 effects=[domain_amplification]\n"
+    },
+    {
+      "at": "2026-10-06T07:22:14.126Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=5177 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=31 coreHits=53 wins=3:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=144 temporary=1122\nblue boss hp=597.5/850.0 damage=91.0 x=9.1 z=-9.1 target=sukuna_perfect skill=0 targetTicks=414 effects=[]\nred sukuna_heian hp=480.0/900.0 damage=122.0 x=6.9 z=-7.2 target=gojo_satoru skill=4204 targetTicks=414 effects=[domain_amplification]\n"
+    },
+    {
+      "at": "2026-10-06T07:22:19.130Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=5177 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=32 coreHits=53 wins=3:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=144 temporary=1122\nblue boss hp=597.5/850.0 damage=91.0 x=8.5 z=-8.5 target=sukuna_perfect skill=208 targetTicks=514 effects=[]\nred sukuna_heian hp=480.0/900.0 damage=122.0 x=2.5 z=-14.5 target=gojo_satoru skill=4202 targetTicks=514 effects=[domain_amplification]\n"
+    },
+    {
+      "at": "2026-10-06T07:22:19.135Z",
+      "command": "jjkarena testprotection",
+      "result": "Terrain protection: level=true chunk=true destroy=true hooks=true,true,true\n"
+    },
+    {
+      "at": "2026-10-06T07:22:19.162Z",
+      "command": "jjkarena auditterrain",
+      "result": "Original terrain: blocks=129695 changed=0 temporary=1122 blocked=147\n"
+    },
+    {
+      "at": "2026-10-06T07:22:19.167Z",
+      "command": "forge tps",
+      "result": "Dim minecraft:overworld (minecraft:overworld): Mean tick time: 0.686 ms. Mean TPS: 20.000\nDim jujutsucrafts:tombs_of_the_star_corridor (jujutsucrafts:tombs_of_the_star_corridor): Mean tick time: 0.010 ms. Mean TPS: 20.000\nDim minecraft:the_end (minecraft:the_end): Mean tick time: 0.005 ms. Mean TPS: 20.000\nDim minecraft:the_nether (minecraft:the_nether): Mean tick time: 0.004 ms. Mean TPS: 20.000\nDim jujutsucraft:cursed_spirit_manipulation_dimension (jujutsucraft:cursed_spirit_manipulation_dimension): Mean tick time: 0.004 ms. Mean TPS: 20.000\nDim lostcities:lostcity (lostcities:lostcity): Mean tick time: 0.005 ms. Mean TPS: 20.000\nDim jjkarena:battlefield (jjkarena:battlefield): Mean tick time: 1.370 ms. Mean TPS: 20.000\nOverall: Mean tick time: 2.122 ms. Mean TPS: 20.000\n"
+    },
+    {
+      "at": "2026-10-06T07:22:19.202Z",
+      "command": "jjkarena reset",
+      "result": "Troops cleared, cores restored. Start when ready.\n"
+    },
+    {
+      "at": "2026-10-06T07:22:19.207Z",
+      "command": "jjkarena status",
+      "result": "built=true building=no running=false paused=false redHP=10000 blueHP=10000 maxHP=10000 red=0 blue=0 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=3:6 intermission=0 redGate=false blueGate=false protected=129695 blocked=147 temporary=0\n"
+    },
+    {
+      "at": "2026-10-06T07:22:19.230Z",
+      "command": "jjkarena auditterrain",
+      "result": "Original terrain: blocks=129695 changed=0 temporary=0 blocked=147\n"
+    },
+    {
+      "at": "2026-10-06T07:22:19.585Z",
+      "command": "save-all flush",
+      "result": "Saving the game (this may take a moment!)\nSaved the game\n"
+    }
+  ]
+}

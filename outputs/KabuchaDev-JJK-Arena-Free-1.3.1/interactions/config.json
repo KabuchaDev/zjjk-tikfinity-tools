@@ -1,0 +1,196 @@
+{
+  "tikfinityUrl": "ws://127.0.0.1:21213/",
+  "streamerbotUrl": "ws://127.0.0.1:8080/",
+  "actionName": "JJK Arena - Summon",
+  "comments": {
+    "messi": {
+      "threshold": 3,
+      "side": "blue",
+      "kind": "miwa"
+    },
+    "ronaldo": {
+      "threshold": 3,
+      "side": "red",
+      "kind": "miwa"
+    },
+    "m10": {
+      "threshold": 5,
+      "side": "blue",
+      "kind": "nobara"
+    },
+    "cr7": {
+      "threshold": 5,
+      "side": "red",
+      "kind": "nobara"
+    }
+  },
+  "gifts": [
+    {
+      "name": "Rose",
+      "aliases": [
+        "Hoa hồng"
+      ],
+      "coins": 1,
+      "side": "blue",
+      "kind": "yuji_school",
+      "id": "5655"
+    },
+    {
+      "name": "TikTok",
+      "coins": 1,
+      "side": "red",
+      "kind": "yuji_school",
+      "id": "5269"
+    },
+    {
+      "name": "Finger Heart",
+      "coins": 5,
+      "side": "blue",
+      "kind": "inumaki",
+      "id": "5487"
+    },
+    {
+      "name": "Okay",
+      "coins": 5,
+      "side": "red",
+      "kind": "inumaki"
+    },
+    {
+      "name": "Perfume",
+      "coins": 20,
+      "side": "blue",
+      "kind": "panda"
+    },
+    {
+      "name": "Little Kiss",
+      "aliases": [
+        "Littlle Kiss"
+      ],
+      "coins": 20,
+      "side": "red",
+      "kind": "panda"
+    },
+    {
+      "name": "Doughnut",
+      "coins": 30,
+      "side": "blue",
+      "kind": "todo"
+    },
+    {
+      "name": "Warm Cocoa",
+      "coins": 30,
+      "side": "red",
+      "kind": "todo"
+    },
+    {
+      "name": "Little Crown",
+      "coins": 99,
+      "side": "blue",
+      "kind": "gojo_school"
+    },
+    {
+      "name": "Paper Crane",
+      "coins": 99,
+      "side": "red",
+      "kind": "gojo_school"
+    },
+    {
+      "name": "Hand Heart",
+      "coins": 100,
+      "side": "blue",
+      "kind": "hakari"
+    },
+    {
+      "name": "Mini Star",
+      "coins": 100,
+      "side": "red",
+      "kind": "hakari"
+    },
+    {
+      "name": "Chatting Popcorn",
+      "coins": 149,
+      "side": "blue",
+      "kind": "maki_culling"
+    },
+    {
+      "name": "Fairy Hide",
+      "coins": 149,
+      "side": "red",
+      "kind": "maki_culling"
+    },
+    {
+      "name": "Cheering Crab",
+      "coins": 199,
+      "side": "blue",
+      "kind": "yuji_shinjuku"
+    },
+    {
+      "name": "Coffee Magic",
+      "coins": 199,
+      "side": "red",
+      "kind": "yuji_shinjuku"
+    },
+    {
+      "name": "Candy Bouquet",
+      "aliases": [
+        "Candy Bounquet"
+      ],
+      "coins": 249,
+      "side": "blue",
+      "kind": "gojo"
+    },
+    {
+      "name": "Forest Elf",
+      "coins": 249,
+      "side": "red",
+      "kind": "gojo"
+    },
+    {
+      "name": "Bowknot",
+      "coins": 149,
+      "side": "blue",
+      "kind": "jogo"
+    },
+    {
+      "name": "Big Shout Out",
+      "coins": 149,
+      "side": "red",
+      "kind": "jogo"
+    },
+    {
+      "name": "Music Bubbles",
+      "coins": 249,
+      "side": "blue",
+      "kind": "sukuna_itadori"
+    },
+    {
+      "name": "Star Goggles",
+      "side": "red",
+      "kind": "sukuna_itadori"
+    },
+    {
+      "name": "Rockstar",
+      "coins": 299,
+      "side": "blue",
+      "kind": "sukuna_megumi"
+    },
+    {
+      "name": "Love Call",
+      "coins": 299,
+      "side": "red",
+      "kind": "sukuna_megumi"
+    },
+    {
+      "name": "Juicy Cap",
+      "coins": 349,
+      "side": "blue",
+      "kind": "sukuna_heian"
+    },
+    {
+      "name": "Craft Dreamer",
+      "coins": 349,
+      "side": "red",
+      "kind": "sukuna_heian"
+    }
+  ]
+}

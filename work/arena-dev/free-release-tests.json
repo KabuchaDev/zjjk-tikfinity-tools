@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "at": "2026-10-07T16:57:47.635Z",
+  "setup": "fixture server directory; real Java 17",
+  "integration": "real Node release modules, synthetic WebSocket and RCON peers",
+  "deliveries": 30,
+  "gifts": 26,
+  "commentThresholds": 4,
+  "held": 0,
+  "gameplayRuntimeTest": false
+}

@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import net from 'node:net';
+import {spawn} from 'node:child_process';
+const cfg=JSON.parse(fs.readFileSync(new URL('./settings.local.json',import.meta.url),'utf8').replace(/^\uFEFF/,''));
+const eula=path.join(cfg.serverDir,'eula.txt');
+if(!fs.existsSync(eula))fs.writeFileSync(eula,'# Read https://www.minecraft.net/en-us/eula and set true only if you agree.\neula=false\n');
+if(!/^\s*eula=true\s*$/m.test(fs.readFileSync(eula,'utf8')))throw new Error('Read https://www.minecraft.net/en-us/eula then edit your server eula.txt if you accept.');
+for(const port of [cfg.serverPort,cfg.rconPort])await new Promise((resolve,reject)=>{const s=net.createServer();s.on('error',()=>reject(new Error(`Port ${port} is already occupied. Do not run two copies.`)));s.listen(port,'127.0.0.1',()=>s.close(resolve));});
+if(!Number.isInteger(cfg.maxMemoryGB)||cfg.maxMemoryGB<2||cfg.maxMemoryGB>64)throw new Error('maxMemoryGB must be an integer from 2 to 64.');
+const child=spawn(cfg.javaPath,['-Xms2G',`-Xmx${cfg.maxMemoryGB}G`,'@libraries/net/minecraftforge/forge/1.20.1-47.4.3/win_args.txt','nogui'],{cwd:cfg.serverDir,stdio:'inherit',windowsHide:true});
+child.on('error',e=>{console.error(e.message);process.exitCode=1;});
+child.on('exit',code=>{process.exitCode=code??1;});

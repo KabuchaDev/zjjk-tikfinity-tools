@@ -1,0 +1,108 @@
+
+[limits]
+	#Range: 0 ~ 64
+	max_permanent_vows = 1
+	#Range: 0 ~ 64
+	max_temporary_vows = 2
+
+[less_hp_more_ce]
+	#Set to false to disable this vow entirely
+	enabled = true
+	#How much max HP is reduced)
+	#Range: 0.0 ~ 1.0
+	hp_reduction = 0.3
+	#Cursed Energy max multiplier
+	#Range: 1.0 ~ 10.0
+	ce_multiplier = 1.5
+	#Physical damage multiplier
+	#Range: 0.0 ~ 10.0
+	combat_multiplier = 1.05
+	#Cursed Technique damage multiplier
+	#Range: 0.0 ~ 10.0
+	curse_multiplier = 1.15
+
+[black_flash]
+	#Set to false to disable this vow entirely
+	enabled = true
+	#Extra Black Flash chance per roll when vow is active (0.06 = 6%)
+	#Range: 0.0 ~ 1.0
+	force_chance = 0.06
+	#Physical damage reduction while vow active (0.90 = 10% less)
+	#Range: 0.0 ~ 1.0
+	damage_reduction = 0.9
+
+[rct_overdrive]
+	#Set to false to disable this vow entirely
+	enabled = true
+	#How much max HP is reduced (0.20 = 20%)
+	#Range: 0.0 ~ 1.0
+	hp_reduction = 0.2
+	#RCT heal multiplier (2.0 = double healing)
+	#Range: 1.0 ~ 10.0
+	heal_multiplier = 2.0
+
+[ct_focus]
+	#Set to false to disable this vow entirely
+	enabled = false
+	#Physical damage multiplier
+	#Range: 0.0 ~ 10.0
+	combat_multiplier = 1.5
+	#Cursed Technique damage multiplier
+	#Range: 0.0 ~ 10.0
+	curse_multiplier = 2.0
+	#Duration in ticks
+	#Range: 1 ~ 1728000
+	duration_ticks = 6000
+
+[speedster]
+	#Set to false to disable this vow entirely
+	enabled = true
+	#Speed bonus
+	#Range: 0.0 ~ 5.0
+	speed_bonus = 0.35
+	#Physical damage multiplier
+	#Range: 0.0 ~ 10.0
+	combat_multiplier = 0.25
+	#Cursed Technique damage multiplier
+	#Range: 0.0 ~ 10.0
+	curse_multiplier = 0.25
+	#Duration in ticks
+	#Range: 1 ~ 1728000
+	duration_ticks = 12000
+
+[glass_cannon]
+	#Set to false to disable this vow entirely
+	enabled = true
+	#Physical damage multiplier
+	#Range: 0.0 ~ 100.0
+	combat_multiplier = 2.5
+	#Cursed Technique damage multiplier
+	#Range: 0.0 ~ 100.0
+	curse_multiplier = 3.2
+	#Damage taken multiplier
+	#Range: 0.0 ~ 100.0
+	damage_taken_multiplier = 7.0
+	#Duration in ticks (1200 = 1 minute)
+	#Range: 1 ~ 1728000
+	duration_ticks = 1200
+
+[overtime]
+	#Set to false to disable this vow entirely
+	enabled = true
+	#Night physical damage multiplier
+	#Range: 0.0 ~ 10.0
+	night_combat_multiplier = 1.25
+	#Night cursed technique damage multiplier
+	#Range: 0.0 ~ 10.0
+	night_curse_multiplier = 1.4
+	#Day physical damage multiplier
+	#Range: 0.0 ~ 10.0
+	day_combat_multiplier = 0.8
+	#Day cursed technique damage multiplier
+	#Range: 0.0 ~ 10.0
+	day_curse_multiplier = 0.8
+
+[breaking]
+	#Whether players are allowed to break their binding vows. Set to false to disable the Break Vow button entirely.
+	allow_break_vow = true
+

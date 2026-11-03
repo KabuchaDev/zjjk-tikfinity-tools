@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+version = '1.3.0'
+group = 'vn.local.jjkarena'
+base { archivesName = 'jjkarena' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+minecraft { mappings channel: 'official', version: '1.20.1' }
+repositories { mavenCentral() }
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.3' }
+sourceSets.main.java { include 'vn/local/jjkarena/**' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+jar.finalizedBy('reobfJar')
+jar { exclude 'vn/local/jjkarena/camera/**' }
+
+tasks.register('cameraJar', Jar) {
+    archiveBaseName = 'jjkarena-camera'
+    archiveVersion = '1.2.0'
+    from(sourceSets.main.output) { include 'vn/local/jjkarena/camera/**'; include 'vn/local/jjkarena/net/**' }
+    from('src/camera/resources')
+}
+reobf { cameraJar {} }
+tasks.named('cameraJar').configure { finalizedBy 'reobfCameraJar' }
+tasks.register('prepareClasspath') { doLast { println "Prepared ${configurations.compileClasspath.files.size()} libraries" } }

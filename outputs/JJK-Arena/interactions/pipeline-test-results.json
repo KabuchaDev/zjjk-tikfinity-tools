@@ -1,0 +1,179 @@
+{
+  "pass": true,
+  "at": "2026-10-05T12:44:45.433Z",
+  "results": [
+    {
+      "label": "messi x3",
+      "side": "blue",
+      "kind": "miwa",
+      "entity": "miwa_kasumi",
+      "pass": true
+    },
+    {
+      "label": "ronaldo x3",
+      "side": "red",
+      "kind": "miwa",
+      "entity": "miwa_kasumi",
+      "pass": true
+    },
+    {
+      "label": "m10 x5",
+      "side": "blue",
+      "kind": "nobara",
+      "entity": "nobara_kugisaki",
+      "pass": true
+    },
+    {
+      "label": "cr7 x5",
+      "side": "red",
+      "kind": "nobara",
+      "entity": "nobara_kugisaki",
+      "pass": true
+    },
+    {
+      "label": "Rose",
+      "side": "blue",
+      "kind": "yuji_school",
+      "entity": "itadori_yuji",
+      "pass": true
+    },
+    {
+      "label": "TikTok",
+      "side": "red",
+      "kind": "yuji_school",
+      "entity": "itadori_yuji",
+      "pass": true
+    },
+    {
+      "label": "Finger Heart",
+      "side": "blue",
+      "kind": "inumaki",
+      "entity": "inumaki_toge",
+      "pass": true
+    },
+    {
+      "label": "Okay",
+      "side": "red",
+      "kind": "inumaki",
+      "entity": "inumaki_toge",
+      "pass": true
+    },
+    {
+      "label": "Perfume",
+      "side": "blue",
+      "kind": "panda",
+      "entity": "panda_normal",
+      "pass": true
+    },
+    {
+      "label": "Little Kiss",
+      "side": "red",
+      "kind": "panda",
+      "entity": "panda_normal",
+      "pass": true
+    },
+    {
+      "label": "Doughnut",
+      "side": "blue",
+      "kind": "todo",
+      "entity": "todo_aoi",
+      "pass": true
+    },
+    {
+      "label": "Warm Cocoa",
+      "side": "red",
+      "kind": "todo",
+      "entity": "todo_aoi",
+      "pass": true
+    },
+    {
+      "label": "Little Crown",
+      "side": "blue",
+      "kind": "gojo_school",
+      "entity": "gojo_satoru_school_days",
+      "pass": true
+    },
+    {
+      "label": "Paper Crane",
+      "side": "red",
+      "kind": "gojo_school",
+      "entity": "gojo_satoru_school_days",
+      "pass": true
+    },
+    {
+      "label": "Hand Heart",
+      "side": "blue",
+      "kind": "hakari",
+      "entity": "hakari_kinji",
+      "pass": true
+    },
+    {
+      "label": "Mini Star",
+      "side": "red",
+      "kind": "hakari",
+      "entity": "hakari_kinji",
+      "pass": true
+    },
+    {
+      "label": "Chatting Popcorn",
+      "side": "blue",
+      "kind": "maki_culling",
+      "entity": "zenin_maki_culling_game",
+      "pass": true
+    },
+    {
+      "label": "Fairy Hide",
+      "side": "red",
+      "kind": "maki_culling",
+      "entity": "zenin_maki_culling_game",
+      "pass": true
+    },
+    {
+      "label": "Cheering Crab",
+      "side": "blue",
+      "kind": "yuji_shinjuku",
+      "entity": "itadori_yuji_shinjuku",
+      "pass": true
+    },
+    {
+      "label": "Coffee Magic",
+      "side": "red",
+      "kind": "yuji_shinjuku",
+      "entity": "itadori_yuji_shinjuku",
+      "pass": true
+    },
+    {
+      "label": "Candy Bouquet",
+      "side": "blue",
+      "kind": "gojo",
+      "entity": "gojo_satoru",
+      "pass": true
+    },
+    {
+      "label": "Forest Elf",
+      "side": "red",
+      "kind": "gojo",
+      "entity": "gojo_satoru",
+      "pass": true
+    },
+    {
+      "label": "Bowknot",
+      "side": "blue",
+      "kind": "jogo",
+      "entity": "jogo",
+      "pass": true
+    },
+    {
+      "label": "Big Shout Out",
+      "side": "red",
+      "kind": "jogo",
+      "entity": "jogo",
+      "pass": true
+    },
+    {
+      "label": "Rose combo 17, duplicate final ignored",
+      "pass": true,
+      "result": "built=true building=no running=true paused=false redHP=1000 blueHP=1000 maxHP=1000 red=0 blue=5 queuedRed=0 queuedBlue=12 hits=0 coreHits=0 wins=0:0 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue yuji_school hp=150.0/150.0 damage=33.0 x=49.9 z=18.5 target=none skill=0 targetTicks=0 effects=[]\nblue yuji_school hp=150.0/150.0 damage=33.0 x=49.9 z=-17.5 target=none skill=0 targetTicks=0 effects=[]\nblue yuji_school hp=150.0/150.0 damage=33.0 x=53.8 z=0.5 target=none skill=0 targetTicks=0 effects=[]\nblue yuji_school hp=150.0/150.0 damage=33.0 x=53.8 z=18.5 target=none skill=0 targetTicks=0 effects=[]\nblue yuji_school hp=150.0/150.0 damage=33.0 x=55.0 z=-18.0 target=none skill=0 targetTicks=0 effects=[]\n"
+    }
+  ]
+}

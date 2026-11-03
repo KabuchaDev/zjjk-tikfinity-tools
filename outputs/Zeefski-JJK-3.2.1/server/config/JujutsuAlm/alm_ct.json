@@ -1,0 +1,16 @@
+{
+  "blacklisted_curses": [],
+  "special_curses": [
+    "jujutsucraft:jogo",
+    "jujutsucraft:hanami",
+    "jujutsucraft:mahito",
+    "jujutsucraft:dagon",
+    "jujutsucraft:rika",
+    "jujutsucraft:rika_2",
+    "jujutsucraft:zenin_naoya_cursed_spirit"
+  ],
+  "max_active_summons": 10,
+  "max_lower_grade_pool": 20,
+  "max_special_curse": 1,
+  "max_normal_curse": 3
+}

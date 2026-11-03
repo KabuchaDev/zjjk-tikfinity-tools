@@ -1,0 +1,1377 @@
+{
+  "includedFiles": 1902,
+  "excluded": [
+    {
+      "path": "outputs/JJK-Arena/bridge-console.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/bridge-errors.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/bridge-process-id.txt",
+      "reason": "machine-specific process / identity cache"
+    },
+    {
+      "path": "outputs/JJK-Arena/bridge.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/bridge-process-id.txt",
+      "reason": "machine-specific process / identity cache"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/bridge.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/console.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/errors.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/test-console.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/test-errors.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/test.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/00205e18-7ec4-46b8-a58e-8ee05b5230ce.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/0248da31-c87c-4873-83c7-96690f2ef463.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/03941e1c-1b37-43ed-b087-0405f003423f.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/075f9965-fcba-4ad1-b0c8-2a0daa846b54.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/089b49f7-ba45-464c-b3fb-0e9bde3974fc.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/095b9223-44e1-4500-bf7a-dfc7e476b84c.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/0cede691-75f8-4dab-8157-20e9815bf957.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/0df2855e-9f34-483f-8969-a55106b70266.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/12518a96-ac33-41b1-94c1-450ade7c39d3.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/12d34dea-8d5f-414e-b799-1e92792f00a2.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/130c9696-17f6-4f6c-a885-38813ddcbb2c.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/149c0491-5a60-4a89-8e58-0be38fe514b6.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/151e5840-9a9b-4af5-a09a-c8309b1fdc6e.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/1651ad8e-606a-466e-b6bd-5e4bef923bf2.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/186e77a8-0210-4222-9bba-9864ebf616f2.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/19340ca5-67e9-4d3c-a319-ee33c427cacd.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/198fdacf-5dc6-4ea4-8038-8142e4d645c2.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/19b1362f-425f-43d5-8098-d62dfc18f66a.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/1a51e5bf-6c41-4f02-be4b-362233404c0b.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/1b62aac8-4f8a-4e49-a8d6-3744a0964483.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/1da74fad-3440-40c1-b9a1-071e195e9cdf.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/1dfae351-08b2-439a-82f0-1e5da725876e.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/1e1b9886-ce78-4327-9572-8586ffddc72a.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/1e5490fc-2b06-42b5-a288-5230b48dd9bc.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/214bed08-9a95-4e70-9820-36ce2239201b.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/21a33610-dc86-4093-9d31-b43105e574ff.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/222a1d45-1f7f-4295-9369-baba633e9683.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/22e5f7c3-802c-4f9e-ba83-322c287f48a1.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/2349cf89-4a05-4900-bc7c-fc3a503c75fa.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/23539cf8-ab36-492d-bf62-610039844ac0.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/253626bd-fc00-45c1-90bf-a59a9d6884ea.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/26d9d9e9-7e60-4a15-9991-77c23f3c7321.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/29fc30fc-88dc-4f76-8124-24cda93bd4de.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/2b48037a-c990-4188-a7be-9ebb20c8def4.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/2cb99880-5934-4c61-beba-c8540d997c65.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/2d7cc778-a6dd-481a-ae2d-7f4512f5aa72.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/2dc88c97-196f-48a4-92f8-92f1da3ca426.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/319c727d-87cd-4bbb-b0c3-432a39e09ed7.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/32678071-9500-4114-aedd-6e0883373fcd.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/331c87ed-ec45-44b8-94bd-2c38c526ab13.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/333f2e82-5f4a-474e-a33c-53cd00fdea0a.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/34576ef4-a8bb-4a55-8f81-eb872c299755.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/34a89dd8-174a-470b-b57b-b85abca6a30b.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/35f6c307-3db8-479f-8ac8-108e5ab68019.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/3683e041-c38b-40bd-b90e-e4c93535f433.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/368b082e-2582-4bcb-8109-735a5d6423e6.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/36ee78eb-78cc-4405-a50b-7cba151d0e45.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/37e17892-4380-4c79-90d6-8cfa7a8b4a87.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/381adfdb-bbc0-44d1-8c34-def53a87951c.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/38df09f0-d695-4301-8d93-1460c505a85f.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/3935e11c-9e73-463b-bfdc-f683d5ba26ff.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/395b934c-7ecf-46c8-954a-18e3b5d1cd1e.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/3ad07da1-7fc1-467d-bad0-20d132d0f574.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/3ade9945-79d9-49c7-ba3f-a84469d4e203.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/3b450fcf-d97c-4c75-9357-f9f07d759ccc.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/3d3b236e-098a-412f-9d62-62e721a0341a.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/3d9864ea-627d-4c5a-b0ba-d63f91afa1b8.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/3de239dc-7c28-43f9-bcb7-20a2877effcf.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/3de3f1d8-5349-4683-88e0-8a60c848ef0f.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/3e7bd5d2-3120-49d8-86dc-0784769d8810.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/3e908608-3ef4-4f7b-a198-fcea9b946f8c.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/3f3af54f-3e58-4b78-831c-1ce41e819b73.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/3f9dd33d-d61d-47b8-9a80-880b1846aef9.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/3fc9dc31-fc97-4c65-baad-2d7de754c3f6.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/4121bece-51e2-479b-b488-7457d6306928.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/4236f0eb-ef6e-4b51-bc9d-c7701609c343.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/45b6e62a-58e5-465d-81ec-b7b3e429877e.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/45e54104-35c8-4cd8-b98a-6a3211ad8558.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/4619dcf9-6345-444c-84fa-08421bc6fea4.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/463e9dfa-c621-4197-ba13-e0f421511143.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/477fb4b6-bc0d-4eaa-93b4-86fcca2d9ab9.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/47868f46-bf63-41d0-986e-07b3f81ba612.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/49e31729-2b46-4466-b962-0aaf2f6b70b9.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/4a1dab5c-d5b5-4e75-8a7a-d0225202f8ef.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/4a9abc89-0d80-4d9a-a7cd-33e1bf3f5d56.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/4baed40a-f11f-4707-9539-bf76967c18be.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/4bbdc2dd-89b0-4eed-91ac-650fe881cea6.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/4bfe1337-37b1-4acb-949b-30efe2a9ddcc.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/4d62055a-2c59-4cb1-a45e-1efccbd94af3.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/4e4d17ed-691c-4194-bdd7-cecbd45e1318.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/4e537d98-8ef5-41e1-99fd-6f0dc153ecd2.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/4ed6847b-0a5a-4649-91ba-a0b67c65b5b0.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/4f764672-e339-4ee8-a90d-09295b7f01f8.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/503d5618-aa0d-4cc5-a44f-9df6f4685be4.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/507d8ff5-0eea-4679-9c2d-6fa3f61b6054.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/511c0bf7-4f23-4154-9276-4d1eb7ebf88e.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/548bea7e-5a39-4d72-8cae-601b77d8beff.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/54bae69c-538b-4e37-8d80-011279124879.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/550c806d-8744-4992-8aa8-797d19988dfb.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/55b7f1be-4c8f-4aaf-9af5-810869357168.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/55e25a52-2944-414d-8dfa-6aa4d2c16313.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/5632284d-2929-4f6f-b7ff-a298a81518c7.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/5677849f-fa44-4ea0-82e1-1c01f3b67ec6.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/57edd867-609b-47b0-a91f-7951bda0da5e.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/59432db6-380e-4217-a1f3-ea4c7d6c7d59.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/5a02dea5-0b5b-4187-8a53-5a8e4de46702.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/5b2780bc-67a0-4a76-857b-7a9ac4069e06.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/5b72470e-37ed-4799-8d2a-99e5ede9c4d2.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/5c54de6c-142f-4d2c-917b-499480130124.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/5c76eb84-f9ec-4e48-8a96-57dbe9544a6a.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/5d073375-540f-47db-aec4-c74906460cb4.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/5d0d5325-d8b6-4c30-a2ab-faa54fc39077.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/5d232a42-12cb-483f-b2b5-891a79799b0a.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/5dd296c5-d1dd-409b-806d-d3311dbd398b.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/5f2c49b6-947f-4203-be80-b4402066f054.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/5f33f3c9-d8b8-4bca-bc64-83cc2a2d7f5f.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/5fdaab32-5c79-4d63-93a0-8952450404aa.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/60c4e042-7b22-4766-aad8-9375f4f376c6.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/61158c60-84f2-45d5-9b5f-4f8e6e90206a.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/61f64752-76e5-40ba-ac64-ae09d0bbe978.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/621de5a9-07b7-4f43-bafd-ab3b53878b62.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/62b47228-6ea9-4969-911a-9118e867508f.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/642cc0c8-68af-40f6-826b-92f5ca5d4911.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/64727e9b-b7b0-4b55-9567-40963ffe5b36.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/672ae63f-36df-43da-a860-a1e086f20279.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/6731561a-23e8-488b-9a00-d392637c1ed2.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/67538de5-616e-4847-b013-9400d450f126.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/67d9184c-afd4-4023-a5f4-14e839d88400.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/688e42fd-d93a-4eb3-8f95-68e860d65822.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/696005e1-b67a-4a50-956d-aaa05f846c77.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/6a3aeb18-04d2-40ca-81b4-50752ffcb430.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/6a46752b-7c64-42c8-8b62-156d6a489151.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/6b2122e6-de88-4af6-b559-9fbdf0d68e7e.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/6c39c6de-6930-4514-9a53-33346ee7e2b1.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/6ca63621-ecfe-4ba1-a31a-323b0cd59aa2.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/6cc47244-bc36-4518-a89e-53fa674487c3.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/6d09037e-392a-4487-bf50-c1dd7ddeb0bd.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/706b1193-ba85-4fae-82c3-d550d38f937b.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/7199f888-b8f5-457f-b846-4651af2dfc4d.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/71b37819-7c3f-4429-b486-b6c6cbc53419.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/7230e1ba-bddc-459b-8cb7-54404d78ff81.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/723ebcc7-6c30-4657-a800-88849b81f0e2.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/73f1dd0b-ff70-466c-8554-3e98af60fdef.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/7726a476-e88b-463f-abe9-486a9cbba537.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/7742910e-2fa2-4ff1-87a0-7e7d38df3b3d.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/7819b6ce-f110-4c73-85a5-94f4ca32db68.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/79b74662-7eaf-4eaf-b428-34e7ab360e9c.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/79ef7772-03f7-45f4-bf20-8e51f444f320.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/7c52e9d1-abca-45bb-8d4f-0b91b2bdaeb3.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/7cd19963-33a3-45cf-b711-6081d21ccecb.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/7d871a5a-1a0b-49b9-83cb-5f948a927609.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/7dc94da7-b8e2-46c7-aed3-9f82cce79ed0.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/7e5bdf40-8309-4f40-9d9a-38e653e2f852.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/7f89a13e-5330-4305-8ed8-982075180295.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/8010d48c-75c7-41d5-965c-018de948e3d0.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/802ee95e-c7f4-479a-9edf-78bda4a51cb1.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/83ca8431-4f73-4d30-b7ac-714507fb5736.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/85f1a166-b2fe-4d8e-9000-8f2eeaccf7ee.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/8664f498-e75d-4e5c-9480-96b0eace4b9f.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/86ff8900-1dbe-483a-b8ff-e3f9d97825d8.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/89e0f8c8-be65-4c0c-aca6-e927b31e33fa.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/8b01de1f-2b1f-4873-916d-1dea07c885e9.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/8d288efe-972e-4022-905d-cac61b30352b.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/8d95c7bc-80f4-4de4-af4f-c29f4675731c.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/8df72454-d501-4206-9e91-87fe16851f2a.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/8e512e69-454b-404e-b150-930f2676b462.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/90e85b0c-017d-4e50-9585-7242ca2eab48.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/91462253-8870-46ca-807f-e708a73b02ce.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/916c7f98-c93c-4dab-9709-47a94bcd89ad.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/91d0ec59-d366-422d-a1f9-dd50a5192f22.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/920f5d37-8850-4208-a961-249a2889c3a8.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/925f219d-8280-4835-984e-4d8ec1f474d2.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/92de170c-5181-4701-aa84-f90deae90e92.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/9625dee3-2060-49e7-99b4-9b013391b9e5.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/984b52ea-375f-4330-b785-ca990880f51b.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/98efd38e-6787-4307-8b39-73a7f1d2e21f.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/9b833939-a8b2-4e0c-bcf2-6a8de4d197cd.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/9c3db6ff-4d42-4ca6-8409-006f078d7627.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/9d07d0d2-8672-4dee-bb22-58540412a99f.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/9e0f34f2-b684-44bc-9061-a1fbe5963c9e.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/9e380c05-d2d4-416b-a70c-677f1b03e0f0.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/9ea1df95-626c-42d5-94c4-bf064abe3a8a.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/9eab297a-835e-4c56-954d-bc6f491ae360.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/a13ce2dc-7e8a-41be-a4c6-134800869410.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/a190d594-1b0f-4acd-b1a1-e7c1508dd3cd.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/a1b7d151-ac2e-4039-9a5a-34d3875d8e00.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/a317fb73-eaec-458a-8411-c8c6fcd570f3.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/a5525eac-cc81-497d-8abd-b6d09a890d7f.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/a56da259-c525-4c68-ba56-d42c3564633c.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/a6c54d2f-aab6-4963-9f65-4c07005168e9.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/a7b5d3e4-ac99-4069-8833-f30fb7bebde8.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/a8038843-6593-437a-84f2-d10b837814a0.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/a89f7be1-b06e-4ecc-af64-982b47c99c0b.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/a97995ae-3f5a-46c8-93c5-0b4230a8a63d.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/aa2f99d1-12b8-483e-81e0-cca6da072194.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/ab198777-acc5-43cd-bf30-d411910d29d1.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/ab9e33c0-8843-483f-88e7-c32f8e3d68c9.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/abf95045-e954-4a30-b97b-b95252b9864b.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/ac44a5fe-eb88-489d-80df-d5a1d9e56717.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/aede16c0-6e0e-4551-a062-3cb5aafa037a.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/af701b3e-ddaf-4a3c-b982-3163ef8e7ecb.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/afe57607-6dba-470e-8986-4cface96a0b2.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/b0b4d106-e46a-4dba-a566-5ddf55ade526.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/b12bd1f9-dd37-495e-990e-11a4ca1cbbf1.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/b14d20d1-2a88-4df7-a8a2-18c5a3849ca5.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/b669758c-9c24-448d-9797-0b42990e48c8.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/b87105a1-dc95-4be4-ac81-ea9c3eb547ef.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/b8a302d4-d372-446d-b5a8-31b282d55be6.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/bfc21259-3a0f-432e-9b80-5963eb9194e0.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/c1eb2e4c-6384-4173-9f5b-961c7dacff03.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/c63e899c-0e2c-41c5-8f36-29cd2302cfae.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/c6907217-06ca-4726-8fb3-8bee3eafb066.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/c710fc73-8aab-4371-8d75-9f60ec20f6b3.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/c84cac2d-60a6-4f2a-9094-3d1d859571af.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/c8c4c1eb-2aab-422e-b34d-2a49738980de.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/ca4e1aba-0fe3-46f5-9f59-7a5dd1aff37a.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/caf19f3c-a551-4d95-9cfc-1be26a8568ba.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/caf20293-674d-46bc-a032-7617b2606e2c.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/cb93ee81-e4eb-4b1c-b1c6-d74562b6658b.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/cdb655af-86b4-4e1a-94dd-b1487338b13e.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/ce11188b-7fa1-485b-9de9-b317d34a757c.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/cf314082-e74b-4735-9017-c404b25ed55c.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/cf7daaff-d9ea-4693-9d2e-a576e3a8fa82.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/cfa3f228-74fc-4569-a1b7-856c50eab7dc.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/d0158813-a773-4cd6-9a95-1fb64019fb7f.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/d047744a-96b2-45c4-8194-88ebf512f989.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/d141bef3-5fd2-4893-89b6-c14521765f47.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/d22b65d7-1940-4a1d-863a-9539a3de026f.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/d2684174-9fd4-47e2-ab33-cab7071197b5.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/d336af30-76ea-4618-a051-c3185f1dc4f9.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/d563cba1-c227-4e4c-ba92-92af75dc4574.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/d5bd1525-c649-40f9-80c5-e08a2638284d.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/d7707bae-609e-47f5-8fb9-5dea208f315e.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/d86527e7-0f99-4144-853b-6584a67642f0.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/d88b8884-6288-484a-a745-9ae61f4a71bb.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/d9b232d0-b0c4-4bfe-9226-eab2d92d2765.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/db017cd4-7379-4f34-afaf-5c145dafb8d3.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/db54cd48-4415-4058-9130-7f58ac270955.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/db876157-7ea0-4e96-ab6e-469eda86e353.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/dec0f543-a51e-45b9-a0ec-b3dcf756e42e.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/e1bccf8d-b6fc-4f59-8491-3321182ab44f.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/e1e722b9-fd46-4a71-b2d3-32a38df79d8c.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/e3371bf9-9655-49b9-b33b-6b5ede04b9ab.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/e3f21f21-721b-4742-b840-694a7d4fa903.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/e44bcc5d-3822-4515-81bf-866e3c766cf0.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/e4bb935f-9534-497c-9f5b-9bbd3c856e07.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/e54bf61b-e843-4c3b-86de-ec72eeb016f7.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/e58d2e2f-63c0-47c5-a806-3b8d70418358.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/e5b244cc-28a8-43e1-a4fc-1905616809e6.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/e6298f00-d255-4d42-8a32-b775c6336100.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/e820f5d7-44af-4479-b5f3-a5eb7068ef64.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/e9a905a7-42ed-42c8-998b-4fe09db7cb52.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/ea527df2-3245-48cf-8a87-374dfd314b20.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/eaf37b8b-9a10-4b83-9472-9f6565e1374f.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/ebe838e5-2f02-456c-b0ba-dcf486a38617.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/ecc6f633-ff0f-432a-84e5-f980492bdb94.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/ecc8875c-4aaa-471c-aa53-25cec5f8ea5a.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/ed254eac-626a-425d-bc6a-d536f6ec9304.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/ee892d8a-0cfa-447c-bb5d-f0193a8e9aa0.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/f37cd2b9-9766-4545-b47f-d18329ecf123.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/f3d6363c-10ac-4bea-ac54-d6d2e4f89ef9.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/f45e06be-000c-4d44-b8c4-4626067e55c7.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/f49b63f0-84a3-4ae9-b1f1-3ccad621cacf.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/f4ea929d-4928-4f83-9665-57a13edf7ea2.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/f71a9020-7c22-4a9a-98b5-c3f9d24fdfcc.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/f872915a-76a4-421d-b47e-7929468cc0dc.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/f8cd8541-ee26-4cfc-a8df-6543aeac2c7a.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/fccf0958-424a-412a-8706-f4ddabcece43.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/fe33587c-0264-4fc1-9605-d7ec626b16ff.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/fe68747a-0040-428f-8959-d7317534def8.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/febb4782-008d-4e5b-ad0c-5428fbca7f09.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/ffb2a4c5-bed6-4ef5-ac30-da75e4ddcf1d.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/interactions/spool/ffdcd76c-d7d1-44f7-8156-a748dff26bcf.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/source/.gradle/",
+      "reason": "cache / log / temporary directory"
+    },
+    {
+      "path": "outputs/JJK-Arena/source/build/",
+      "reason": "generated Java build directory"
+    },
+    {
+      "path": "outputs/JJK-Arena/test-panel/console.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/JJK-Arena/test-panel/errors.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/server/cache/",
+      "reason": "cache / log / temporary directory"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/server/logs/",
+      "reason": "cache / log / temporary directory"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/server/banned-ips.json",
+      "reason": "local server access / identity list"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/server/banned-players.json",
+      "reason": "local server access / identity list"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/server/console-errors.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/server/console-output.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/server/ops.json",
+      "reason": "local server access / identity list"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/server/usercache.json",
+      "reason": "machine-specific process / identity cache"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/server/whitelist.json",
+      "reason": "local server access / identity list"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/server/world-tiktok/session.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/server/world-tiktok_nether/session.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/server/world-tiktok_the_end/session.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/first-start-and-shutdown.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/server/logs/",
+      "reason": "cache / log / temporary directory"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/server/banned-ips.json",
+      "reason": "local server access / identity list"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/server/banned-players.json",
+      "reason": "local server access / identity list"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/server/console-errors.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/server/console-output.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/server/installer.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/server/ops.json",
+      "reason": "local server access / identity list"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/server/usercache.json",
+      "reason": "machine-specific process / identity cache"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/server/usernamecache.json",
+      "reason": "machine-specific process / identity cache"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/server/whitelist.json",
+      "reason": "local server access / identity list"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/server/world-jujutsu/session.lock",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/minecraft-server.pid",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/free-release-build-artifacts/",
+      "reason": "generated build inspection cache"
+    },
+    {
+      "path": "work/arena-dev/gradle-cache/",
+      "reason": "cache / log / temporary directory"
+    },
+    {
+      "path": "work/arena-dev/build-autocamera.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/build-camera-final.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/build-camera.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/build-celebrations.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/build-final-audit.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/build-final-boundary.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/build-final-target-filter.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/build-gate-exit.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/build-interactions.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/build-native-final.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/build-native.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/build-portraits.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/build-sukuna.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/free-release-build.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/gradle-build-final.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/gradle-build.log",
+      "reason": "log / process / lock / temporary file"
+    },
+    {
+      "path": "work/arena-dev/gradle-prepare.log",
+      "reason": "log / process / lock / temporary file"
+    }
+  ],
+  "changes": [
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/server/plugins/ServerTap/config.yml",
+      "packagedAs": "outputs/Minecraft-TikTok-1.21.4/server/plugins/ServerTap/config.example.yml",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/server/server.properties",
+      "packagedAs": "outputs/Minecraft-TikTok-1.21.4/server/server.properties.example",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/settings.local.json",
+      "packagedAs": "outputs/Minecraft-TikTok-1.21.4/settings.example.json",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "outputs/Minecraft-TikTok-1.21.4/THONG-TIN-KET-NOI.txt",
+      "packagedAs": "outputs/Minecraft-TikTok-1.21.4/THONG-TIN-KET-NOI.txt",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-05-035016.zip",
+      "packagedAs": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-05-035016.zip",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-05-051519.zip",
+      "packagedAs": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-05-051519.zip",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-05-090900.zip",
+      "packagedAs": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-05-090900.zip",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-05-093708.zip",
+      "packagedAs": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-05-093708.zip",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-05-153736.zip",
+      "packagedAs": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-05-153736.zip",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-05-215104.zip",
+      "packagedAs": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-05-215104.zip",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-06-120958.zip",
+      "packagedAs": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-06-120958.zip",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-06-141411.zip",
+      "packagedAs": "outputs/Zeefski-JJK-3.2.1/backups/JJK-2026-10-06-141411.zip",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/server/server.properties",
+      "packagedAs": "outputs/Zeefski-JJK-3.2.1/server/server.properties.example",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "outputs/Zeefski-JJK-3.2.1/settings.local.json",
+      "packagedAs": "outputs/Zeefski-JJK-3.2.1/settings.example.json",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "work/servertap-default.yml",
+      "packagedAs": "work/servertap-default.yml",
+      "reason": "credential redaction and/or local configuration template"
+    },
+    {
+      "path": "work/zjjk/ZJJK_3.2.1server-pack.zip",
+      "packagedAs": "work/zjjk/ZJJK_3.2.1server-pack.zip",
+      "reason": "credential redaction and/or local configuration template"
+    }
+  ],
+  "secretValuesLogged": false,
+  "publicCertificatesOrDependencyLocksRecovered": 0
+}

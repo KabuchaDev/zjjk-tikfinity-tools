@@ -1,0 +1,2 @@
+# Accepted explicitly by the user in this chat on 2026-10-04
+eula=true

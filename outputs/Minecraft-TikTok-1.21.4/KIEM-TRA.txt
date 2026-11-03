@@ -1,0 +1,13 @@
+2026-10-04 — Kết quả kiểm tra
+Paper 1.21.4 build 232: khởi động thành công.
+Java 21 Microsoft runtime: hoạt động.
+EULA: người dùng đã đồng ý rõ ràng trong chat.
+Minecraft: chỉ lắng nghe 127.0.0.1:25565, offline-mode, tối đa 1 người chơi.
+ServerTap 0.6.1: nạp thành công, API hoạt động.
+API từ chối khóa sai: PASS.
+Gửi lệnh qua ServerTap: triệu hồi thành công Zombie, Skeleton, Creeper, Spider.
+Đếm thực thể thử: 4; đã dọn cả 4 và gỡ chunk thử khỏi danh sách luôn tải.
+Script khởi động và thử quái: đã kiểm tra cú pháp.
+Còn chờ: người chơi vào máy chủ để thử vị trí triệu hồi cạnh nhân vật.
+Còn chờ: đăng nhập TikFinity, lưu Action/Event và thử sự kiện quà.
+Chưa thử quà thật trong một phiên TikTok LIVE.

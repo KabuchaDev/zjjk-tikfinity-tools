@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="jjkarena"
+version="1.3.0"
+displayName="JJK Red vs Blue Arena"
+authors="Local custom build"
+displayTest="IGNORE_SERVER_VERSION"
+description='''A private arena with native JJK combat, protected terrain and TikFinity comment commands.'''
+[[dependencies.jjkarena]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.3,48)"
+ordering="NONE"
+side="SERVER"
+[[dependencies.jjkarena]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="SERVER"

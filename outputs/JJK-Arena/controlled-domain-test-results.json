@@ -1,0 +1,98 @@
+{
+  "domainObserved": true,
+  "conditions": "Disposable Sukuna Heian and Gojo test mobs with low health and Invulnerable; native AI enabled; no production changes.",
+  "results": [
+    {
+      "command": "jjkarena start",
+      "result": "Match started. Ronaldo=red, Messi=blue.\n"
+    },
+    {
+      "command": "jjkarena spawn red sukuna_heian 1 DomainAudit",
+      "result": "Queued 1 sukuna_heian for red; queue=1; active=0\n"
+    },
+    {
+      "command": "jjkarena spawn blue gojo 1 DomainAudit",
+      "result": "Queued 1 gojo for blue; queue=1; active=0\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield as @e[tag=jjkarena_unit] run data merge entity @s {Invulnerable:1b,Health:220.0f}",
+      "result": "Modified entity data of RONALDO | DomainAudit | SUKUNA_HEIAN\nModified entity data of MESSI | DomainAudit | GOJO\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=2:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=0 temporary=1122\nred sukuna_heian hp=220.0/900.0 damage=122.0 x=53.4 z=16.1 target=gojo_satoru skill=4201 targetTicks=116 effects=[domain_amplification]\nblue gojo hp=220.0/850.0 damage=91.0 x=57.0 z=20.7 target=sukuna_perfect skill=0 targetTicks=116 effects=[]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield as @e[tag=jjkarena_unit] run data merge entity @s {Invulnerable:1b,Health:220.0f}",
+      "result": ""
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=1 coreHits=0 wins=2:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=54 temporary=1122\nred sukuna_heian hp=377.5/900.0 damage=122.0 x=59.6 z=14.4 target=gojo_satoru skill=0 targetTicks=217 effects=[]\nblue gojo hp=368.8/850.0 damage=91.0 x=58.7 z=15.1 target=sukuna_perfect skill=0 targetTicks=217 effects=[]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield as @e[tag=jjkarena_unit] run data merge entity @s {Invulnerable:1b,Health:220.0f}",
+      "result": "Modified entity data of RONALDO | DomainAudit | SUKUNA_HEIAN\nModified entity data of MESSI | DomainAudit | GOJO\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=7 coreHits=0 wins=2:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=320 temporary=1124\nred sukuna_heian hp=366.3/900.0 damage=122.0 x=60.0 z=14.0 target=gojo_satoru skill=0 targetTicks=317 effects=[]\nblue gojo hp=358.1/850.0 damage=91.0 x=76.1 z=6.3 target=sukuna_perfect skill=0 targetTicks=317 effects=[]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield as @e[tag=jjkarena_unit] run data merge entity @s {Invulnerable:1b,Health:220.0f}",
+      "result": "Modified entity data of RONALDO | DomainAudit | SUKUNA_HEIAN\nModified entity data of MESSI | DomainAudit | GOJO\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=7 coreHits=0 wins=2:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=752 temporary=1124\nred sukuna_heian hp=231.3/900.0 damage=122.0 x=70.2 z=25.1 target=gojo_satoru skill=0 targetTicks=418 effects=[domain_amplification]\nblue gojo hp=230.6/850.0 damage=91.0 x=70.1 z=26.9 target=sukuna_perfect skill=4202 targetTicks=418 effects=[]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield as @e[tag=jjkarena_unit] run data merge entity @s {Invulnerable:1b,Health:220.0f}",
+      "result": "Modified entity data of RONALDO | DomainAudit | SUKUNA_HEIAN\nModified entity data of MESSI | DomainAudit | GOJO\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=7 coreHits=0 wins=2:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=752 temporary=1124\nred sukuna_heian hp=298.8/900.0 damage=122.0 x=70.7 z=25.7 target=gojo_satoru skill=0 targetTicks=518 effects=[]\nblue gojo hp=368.8/850.0 damage=91.0 x=70.4 z=26.7 target=sukuna_perfect skill=4204 targetTicks=518 effects=[]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield as @e[tag=jjkarena_unit] run data merge entity @s {Invulnerable:1b,Health:220.0f}",
+      "result": "Modified entity data of RONALDO | DomainAudit | SUKUNA_HEIAN\nModified entity data of MESSI | DomainAudit | GOJO\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=9 coreHits=0 wins=2:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=18529 temporary=1124\nred sukuna_heian hp=242.5/900.0 damage=122.0 x=70.7 z=25.7 target=gojo_satoru skill=120 targetTicks=615 effects=[]\nblue gojo hp=303.7/850.0 damage=91.0 x=70.4 z=26.7 target=sukuna_perfect skill=0 targetTicks=615 effects=[]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield as @e[tag=jjkarena_unit] run data merge entity @s {Invulnerable:1b,Health:220.0f}",
+      "result": "Modified entity data of RONALDO | DomainAudit | SUKUNA_HEIAN\nModified entity data of MESSI | DomainAudit | GOJO\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=9 coreHits=0 wins=2:6 intermission=0 redGate=true blueGate=true protected=129695 blocked=40274 temporary=13484\nred sukuna_heian hp=220.0/900.0 damage=122.0 x=70.7 z=25.7 target=gojo_satoru skill=105 targetTicks=699 effects=[domain_expansion]\nblue gojo hp=238.2/850.0 damage=91.0 x=69.7 z=27.0 target=sukuna_perfect skill=0 targetTicks=699 effects=[cooldown_time_simple_domain]\n"
+    },
+    {
+      "command": "jjkarena testprotection",
+      "result": "Terrain protection: level=true chunk=true destroy=true hooks=true,true,true\n"
+    },
+    {
+      "command": "jjkarena auditterrain",
+      "result": "Original terrain: blocks=129695 changed=0 temporary=13484 blocked=79467\n"
+    },
+    {
+      "command": "forge tps",
+      "result": "Dim minecraft:overworld (minecraft:overworld): Mean tick time: 0.612 ms. Mean TPS: 20.000\nDim minecraft:the_nether (minecraft:the_nether): Mean tick time: 0.018 ms. Mean TPS: 20.000\nDim minecraft:the_end (minecraft:the_end): Mean tick time: 0.006 ms. Mean TPS: 20.000\nDim lostcities:lostcity (lostcities:lostcity): Mean tick time: 0.010 ms. Mean TPS: 20.000\nDim jujutsucrafts:tombs_of_the_star_corridor (jujutsucrafts:tombs_of_the_star_corridor): Mean tick time: 0.008 ms. Mean TPS: 20.000\nDim jujutsucraft:cursed_spirit_manipulation_dimension (jujutsucraft:cursed_spirit_manipulation_dimension): Mean tick time: 0.008 ms. Mean TPS: 20.000\nDim jjkarena:battlefield (jjkarena:battlefield): Mean tick time: 35.460 ms. Mean TPS: 20.000\nOverall: Mean tick time: 36.182 ms. Mean TPS: 20.000\n"
+    },
+    {
+      "command": "jjkarena reset",
+      "result": "Troops cleared, cores restored. Start when ready.\n"
+    },
+    {
+      "command": "jjkarena auditterrain",
+      "result": "Original terrain: blocks=129695 changed=0 temporary=0 blocked=81523\n"
+    },
+    {
+      "command": "save-all flush",
+      "result": "Saving the game (this may take a moment!)\nSaved the game\n"
+    }
+  ]
+}

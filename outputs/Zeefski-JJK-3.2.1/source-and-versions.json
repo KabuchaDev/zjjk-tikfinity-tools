@@ -1,0 +1,10 @@
+{
+  "source": "https://www.curseforge.com/minecraft/modpacks/zjjk/files/8509973",
+  "serverFileId": 8510031,
+  "serverFileName": "ZJJK_3.2.1server-pack.zip",
+  "sha256": "AE863A099A192B7650A0A3823EE9450E68A134210A7C5D6F4F365C57E130DE1F",
+  "clientServerMatchedJars": 86,
+  "java": "Microsoft OpenJDK 17.0.15",
+  "minecraft": "1.20.1",
+  "forge": "47.4.3"
+}

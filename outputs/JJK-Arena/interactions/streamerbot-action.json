@@ -1,0 +1,29 @@
+{
+  "id": "2f81ef68-4a18-4989-b54c-c3a961193d06",
+  "queue": "00000000-0000-0000-0000-000000000000",
+  "enabled": true,
+  "excludeFromHistory": false,
+  "excludeFromPending": false,
+  "name": "JJK Arena - Summon",
+  "group": "JJK Arena",
+  "alwaysRun": false,
+  "randomAction": false,
+  "concurrent": false,
+  "triggers": [],
+  "collapsedGroups": [],
+  "subActions": [
+    {
+      "command": "C:\\Users\\PHAT\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+      "arguments": "\"C:\\Users\\PHAT\\Documents\\Codex\\2026-10-04\\l\\outputs\\JJK-Arena\\interactions\\dispatch.mjs\" %arenaJobId%",
+      "workingDir": "C:\\Users\\PHAT\\Documents\\Codex\\2026-10-04\\l\\outputs\\JJK-Arena\\interactions",
+      "envVars": {},
+      "waitForExit": 20,
+      "id": "4174710b-0bd7-4573-982c-885f6c915949",
+      "weight": 0,
+      "type": 6,
+      "parentId": null,
+      "enabled": true,
+      "index": 0
+    }
+  ]
+}

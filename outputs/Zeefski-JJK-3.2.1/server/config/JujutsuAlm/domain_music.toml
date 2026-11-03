@@ -1,0 +1,11 @@
+
+#Domain Music Settings
+[domain_music]
+	#If true, only OPs can play domain music.
+	#Players on the allow list can always play regardless.
+	#Players on the forbid list can never play regardless.
+	op_only = false
+	#Maximum allowed music file size in KB (default 5120 = 5MB)
+	#Range: 128 ~ 10240
+	max_file_size_kb = 5120
+

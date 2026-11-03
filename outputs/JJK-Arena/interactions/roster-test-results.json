@@ -1,0 +1,174 @@
+[
+  {
+    "command": "jjkarena start",
+    "result": "Match started. Ronaldo=red, Messi=blue.\n"
+  },
+  {
+    "command": "jjkarena spawn red miwa 1 RosterTest",
+    "result": "Queued 1 miwa for red; queue=1; active=0\n"
+  },
+  {
+    "command": "execute in jjkarena:battlefield if entity @e[tag=jjkarena_red,type=jujutsucraft:miwa_kasumi]",
+    "result": "Test passed, count: 1\n"
+  },
+  {
+    "command": "jjkarena start",
+    "result": "Match started. Ronaldo=red, Messi=blue.\n"
+  },
+  {
+    "command": "jjkarena spawn red nobara 1 RosterTest",
+    "result": "Queued 1 nobara for red; queue=1; active=0\n"
+  },
+  {
+    "command": "execute in jjkarena:battlefield if entity @e[tag=jjkarena_red,type=jujutsucraft:nobara_kugisaki]",
+    "result": "Test passed, count: 1\n"
+  },
+  {
+    "command": "jjkarena start",
+    "result": "Match started. Ronaldo=red, Messi=blue.\n"
+  },
+  {
+    "command": "jjkarena spawn red yuji_school 1 RosterTest",
+    "result": "Queued 1 yuji_school for red; queue=1; active=0\n"
+  },
+  {
+    "command": "execute in jjkarena:battlefield if entity @e[tag=jjkarena_red,type=jujutsucraft:itadori_yuji]",
+    "result": "Test passed, count: 1\n"
+  },
+  {
+    "command": "jjkarena start",
+    "result": "Match started. Ronaldo=red, Messi=blue.\n"
+  },
+  {
+    "command": "jjkarena spawn red inumaki 1 RosterTest",
+    "result": "Queued 1 inumaki for red; queue=1; active=0\n"
+  },
+  {
+    "command": "execute in jjkarena:battlefield if entity @e[tag=jjkarena_red,type=jujutsucraft:inumaki_toge]",
+    "result": "Test passed, count: 1\n"
+  },
+  {
+    "command": "jjkarena start",
+    "result": "Match started. Ronaldo=red, Messi=blue.\n"
+  },
+  {
+    "command": "jjkarena spawn red panda 1 RosterTest",
+    "result": "Queued 1 panda for red; queue=1; active=0\n"
+  },
+  {
+    "command": "execute in jjkarena:battlefield if entity @e[tag=jjkarena_red,type=jujutsucraft:panda_normal]",
+    "result": "Test passed, count: 1\n"
+  },
+  {
+    "command": "jjkarena start",
+    "result": "Match started. Ronaldo=red, Messi=blue.\n"
+  },
+  {
+    "command": "jjkarena spawn red todo 1 RosterTest",
+    "result": "Queued 1 todo for red; queue=1; active=0\n"
+  },
+  {
+    "command": "execute in jjkarena:battlefield if entity @e[tag=jjkarena_red,type=jujutsucraft:todo_aoi]",
+    "result": "Test passed, count: 1\n"
+  },
+  {
+    "command": "jjkarena start",
+    "result": "Match started. Ronaldo=red, Messi=blue.\n"
+  },
+  {
+    "command": "jjkarena spawn red gojo_school 1 RosterTest",
+    "result": "Queued 1 gojo_school for red; queue=1; active=0\n"
+  },
+  {
+    "command": "execute in jjkarena:battlefield if entity @e[tag=jjkarena_red,type=jujutsucraft:gojo_satoru_school_days]",
+    "result": "Test passed, count: 1\n"
+  },
+  {
+    "command": "jjkarena start",
+    "result": "Match started. Ronaldo=red, Messi=blue.\n"
+  },
+  {
+    "command": "jjkarena spawn red hakari 1 RosterTest",
+    "result": "Queued 1 hakari for red; queue=1; active=0\n"
+  },
+  {
+    "command": "execute in jjkarena:battlefield if entity @e[tag=jjkarena_red,type=jujutsucraft:hakari_kinji]",
+    "result": "Test passed, count: 1\n"
+  },
+  {
+    "command": "jjkarena start",
+    "result": "Match started. Ronaldo=red, Messi=blue.\n"
+  },
+  {
+    "command": "jjkarena spawn red maki_culling 1 RosterTest",
+    "result": "Queued 1 maki_culling for red; queue=1; active=0\n"
+  },
+  {
+    "command": "execute in jjkarena:battlefield if entity @e[tag=jjkarena_red,type=jujutsucraft:zenin_maki_culling_game]",
+    "result": "Test passed, count: 1\n"
+  },
+  {
+    "command": "jjkarena start",
+    "result": "Match started. Ronaldo=red, Messi=blue.\n"
+  },
+  {
+    "command": "jjkarena spawn red yuji_shinjuku 1 RosterTest",
+    "result": "Queued 1 yuji_shinjuku for red; queue=1; active=0\n"
+  },
+  {
+    "command": "execute in jjkarena:battlefield if entity @e[tag=jjkarena_red,type=jujutsucraft:itadori_yuji_shinjuku]",
+    "result": "Test passed, count: 1\n"
+  },
+  {
+    "command": "jjkarena start",
+    "result": "Match started. Ronaldo=red, Messi=blue.\n"
+  },
+  {
+    "command": "jjkarena spawn red gojo 1 RosterTest",
+    "result": "Queued 1 gojo for red; queue=1; active=0\n"
+  },
+  {
+    "command": "execute in jjkarena:battlefield if entity @e[tag=jjkarena_red,type=jujutsucraft:gojo_satoru]",
+    "result": "Test passed, count: 1\n"
+  },
+  {
+    "command": "jjkarena start",
+    "result": "Match started. Ronaldo=red, Messi=blue.\n"
+  },
+  {
+    "command": "jjkarena spawn red jogo 1 RosterTest",
+    "result": "Queued 1 jogo for red; queue=1; active=0\n"
+  },
+  {
+    "command": "execute in jjkarena:battlefield if entity @e[tag=jjkarena_red,type=jujutsucraft:jogo]",
+    "result": "Test passed, count: 1\n"
+  },
+  {
+    "command": "jjkarena start",
+    "result": "Match started. Ronaldo=red, Messi=blue.\n"
+  },
+  {
+    "command": "jjkarena spawn red miwa 1 RedTest",
+    "result": "Queued 1 miwa for red; queue=1; active=0\n"
+  },
+  {
+    "command": "jjkarena spawn blue miwa 1 BlueTest",
+    "result": "Queued 1 miwa for blue; queue=1; active=0\n"
+  },
+  {
+    "command": "jjkarena status",
+    "result": "built=true building=no running=true paused=false redHP=1000 blueHP=1000 maxHP=1000 red=1 blue=0 queuedRed=0 queuedBlue=0 hits=6 coreHits=0 wins=0:1 intermission=0 redGate=true blueGate=false protected=129695 blocked=0 temporary=561\nred miwa hp=60.0/60.0 damage=19.0 x=37.2 z=-8.9 target=none skill=0 targetTicks=0 effects=[]\n"
+  },
+  {
+    "command": "jjkarena reset",
+    "result": "Troops cleared, cores restored. Start when ready.\n"
+  },
+  {
+    "command": "jjkarena clearscore",
+    "result": "Win counters cleared.\n"
+  },
+  {
+    "command": "save-all flush",
+    "result": "Saving the game (this may take a moment!)\nSaved the game\n"
+  }
+]

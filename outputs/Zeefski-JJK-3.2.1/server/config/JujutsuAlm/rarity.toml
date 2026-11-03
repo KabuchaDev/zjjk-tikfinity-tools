@@ -1,0 +1,51 @@
+
+#Rarity Chances (in %)
+[rarity]
+	#Chance to roll a STRONGEST rarity CT
+	#Range: 0.0 ~ 100.0
+	strongest_chance = 2.0
+	#Chance to roll a LEGENDARY rarity CT
+	#Range: 0.0 ~ 100.0
+	legendary_chance = 5.0
+	#Chance to roll an EPIC rarity CT
+	#Range: 0.0 ~ 100.0
+	epic_chance = 10.0
+	#Chance to roll a RARE rarity CT
+	#Range: 0.0 ~ 100.0
+	rare_chance = 15.0
+	#Chance to roll a COMMON rarity CT
+	#Range: 0.0 ~ 100.0
+	common_chance = 68.0
+	#Chance to also receive Six Eyes when spinning a CT (in %)
+	#Range: 0.0 ~ 100.0
+	six_eyes_chance = 1.0
+
+#Dynamic Rarity System - Adjusts CT chances based on how many players own each CT
+[dynamic_rarity]
+	#Enable dynamic rarity? When enabled, CTs that more players own become rarer for others.
+	#Each player owning a CT halves its chance (e.g., 2 owners = 25% of base chance)
+	enabled = true
+	#Should players lose their CT ownership when they die?
+	#If true, their CT becomes more common again for others to roll.
+	#If false, ownership is permanent until they spin a new CT.
+	lose_ct_on_death = false
+	#Should offline players still count towards ownership?
+	#If true, even when a player is offline, their CT counts as owned.
+	#If false, only online players affect the dynamic rarity.
+	track_offline_players = true
+
+#Skin Settings
+[skins]
+	#Can normal (non-OP) players change their skin?
+	#If false, non-OP players who join with a custom skin will have it reset to their MC skin.
+	#Players on the skin allow list can always change skins regardless.
+	#Players on the skin forbid list can never change skins regardless.
+	#OPs can always change their skin unless they are on the forbid list.
+	can_normal_players_change_skin = false
+
+#Internal
+[internal]
+	#Internal value. Do not modify.
+	#Range: 0.0 ~ 100.0
+	fakeout_chance = 0.01
+

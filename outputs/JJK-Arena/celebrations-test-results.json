@@ -1,0 +1,354 @@
+{
+  "pass": true,
+  "at": "2026-10-06T21:22:10.801Z",
+  "results": [
+    {
+      "command": "list",
+      "result": "There are 0 of a max of 4 players online: \n"
+    },
+    {
+      "command": "jjkarena live follow 57e7cbc3044ea25c89d6954e41936f97d71cba4d9b94ebc3 S2nhu4NtIHRyYSBj4bqjbmg",
+      "result": "Audience duplicate\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=0 blue=0 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=4:9 intermission=0 redGate=false blueGate=false protected=143255 blocked=0 temporary=0\n"
+    },
+    {
+      "command": "jjkarena start",
+      "result": "Match started. Ronaldo=red, Messi=blue.\n"
+    },
+    {
+      "command": "jjkarena spawn red miwa 1 CinemaTest",
+      "result": "Queued 1 miwa for red; queue=1; active=0\n"
+    },
+    {
+      "command": "jjkarena spawn blue nobara 1 CinemaTest",
+      "result": "Queued 1 nobara for blue; queue=1; active=0\n"
+    },
+    {
+      "command": "jjkarena pause",
+      "result": "Paused; new spawns rejected.\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=jjkarena_red,limit=1] Pos",
+      "result": "RONALDO | CinemaTest | MIWA has the following entity data: [-54.605715578414895d, 81.0d, -17.60573146540928d]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=jjkarena_red,limit=1] Health",
+      "result": "RONALDO | CinemaTest | MIWA has the following entity data: 60.0f\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=jjkarena_red,limit=1] ForgeData.skill",
+      "result": "Found no elements matching ForgeData.skill\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run setblock 0 95 0 minecraft:stone",
+      "result": "Changed the block at 0, 95, 0\n"
+    },
+    {
+      "command": "jjkarena live follow 29b6a1b31e88e9648fe7a2e1235ef79ffefc227569bee9b5 S2nhu4NtIHRyYSBj4bqjbmg",
+      "result": "Audience accepted\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=jjkarena_red,limit=1] Pos",
+      "result": "RONALDO | CinemaTest | MIWA has the following entity data: [-2.75d, 96.0d, 0.0d]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=jjkarena_red,limit=1] Pos",
+      "result": "RONALDO | CinemaTest | MIWA has the following entity data: [-2.75d, 96.0d, 0.0d]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run damage @e[tag=jjkarena_red,limit=1] 10 minecraft:generic",
+      "result": "Target is invulnerable to the given damage type\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=jjkarena_red,limit=1] Health",
+      "result": "RONALDO | CinemaTest | MIWA has the following entity data: 60.0f\n"
+    },
+    {
+      "command": "jjkarena live follow 1743944c431db5fea02ecc5b027bbb70bfb98856c0c42c36 S2nhu4NtIHRyYSBj4bqjbmg",
+      "result": "Audience busy\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=follow frozen=2 cast=2 completed=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=false scene=none frozen=0 cast=0 completed=1\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=jjkarena_red,limit=1] Pos",
+      "result": "RONALDO | CinemaTest | MIWA has the following entity data: [-54.605715578414895d, 81.0d, -17.60573146540928d]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=jjkarena_red,limit=1] Health",
+      "result": "RONALDO | CinemaTest | MIWA has the following entity data: 60.0f\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=jjkarena_red,limit=1] ForgeData.skill",
+      "result": "Found no elements matching ForgeData.skill\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block 0 95 0 minecraft:stone",
+      "result": "Test passed\n"
+    },
+    {
+      "command": "jjkarena live follow 29b6a1b31e88e9648fe7a2e1235ef79ffefc227569bee9b5 S2nhu4NtIHRyYSBj4bqjbmg",
+      "result": "Audience duplicate\n"
+    },
+    {
+      "command": "jjkarena live welcome d3113dcb86336b74475e49a6dfaa193a3bcc0ebd3dc7c2c7 S2nhu4NtIHRyYSBj4bqjbmg",
+      "result": "Audience accepted\n"
+    },
+    {
+      "command": "jjkarena live thanks db73291bbc4b3b96a12f32e5412ce2165a8a59314046b5ba S2nhu4NtIHRyYSBj4bqjbmg",
+      "result": "Audience accepted\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=true redHP=10000 blueHP=10000 maxHP=10000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=4:9 intermission=0 redGate=true blueGate=true protected=143255 blocked=0 temporary=1123\nred miwa hp=60.0/60.0 damage=19.0 x=-54.6 z=-17.6 target=nobara_kugisaki skill=0 targetTicks=15 effects=[]\nblue nobara hp=80.0/80.0 damage=18.0 x=55.0 z=0.0 target=miwa_kasumi skill=0 targetTicks=15 effects=[]\n"
+    },
+    {
+      "command": "jjkarena start",
+      "result": "Match started. Ronaldo=red, Messi=blue.\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=false scene=none frozen=0 cast=0 completed=1\n"
+    },
+    {
+      "command": "jjkarena spawn blue yuji_school 3 ComboTest gift",
+      "result": "Queued 3 yuji_school for blue; queue=3; active=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=false scene=none frozen=0 cast=0 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=1\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=false scene=none frozen=0 cast=0 completed=2\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=0 blue=3 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=4:9 intermission=0 redGate=false blueGate=true protected=143255 blocked=0 temporary=561\nblue yuji_school hp=150.0/150.0 damage=33.0 x=52.8 z=18.5 target=none skill=0 targetTicks=0 effects=[]\nblue yuji_school hp=150.0/150.0 damage=33.0 x=55.0 z=-18.0 target=none skill=0 targetTicks=0 effects=[]\nblue yuji_school hp=150.0/150.0 damage=33.0 x=55.0 z=0.0 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=false scene=none frozen=0 cast=0 completed=2\n"
+    },
+    {
+      "command": "jjkarena start",
+      "result": "Match started. Ronaldo=red, Messi=blue.\n"
+    },
+    {
+      "command": "jjkarena spawn blue hakari 1 ResetTest gift",
+      "result": "Queued 1 hakari for blue; queue=1; active=0\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=false scene=none frozen=0 cast=0 completed=2\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=false scene=none frozen=0 cast=0 completed=2\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=true scene=gift frozen=1 cast=1 completed=2\n"
+    },
+    {
+      "command": "jjkarena reset",
+      "result": "Troops cleared, cores restored. Start when ready.\n"
+    },
+    {
+      "command": "jjkarena celebration",
+      "result": "celebrating=false scene=none frozen=0 cast=0 completed=3\n"
+    },
+    {
+      "command": "jjkarena start",
+      "result": "Match started. Ronaldo=red, Messi=blue.\n"
+    },
+    {
+      "command": "jjkarena auditterrain",
+      "result": "Original terrain: blocks=143255 changed=0 temporary=0 blocked=0\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=0 blue=0 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=4:9 intermission=0 redGate=false blueGate=false protected=143255 blocked=0 temporary=0\n"
+    },
+    {
+      "command": "save-all flush",
+      "result": "Saving the game (this may take a moment!)\nSaved the game\n"
+    },
+    {
+      "command": "list",
+      "result": "There are 0 of a max of 4 players online: \n"
+    },
+    {
+      "command": "jjkarena start",
+      "result": "Match started. Ronaldo=red, Messi=blue.\n"
+    }
+  ]
+}

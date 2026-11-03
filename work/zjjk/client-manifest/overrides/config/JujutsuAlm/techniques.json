@@ -1,0 +1,832 @@
+{
+  "_comment": "Configure Cursed Techniques here. IF you need help ask me",
+  "techniques": [
+    {
+      "name": "MEGUMI",
+      "displayName": "Megumi",
+      "techniqueId": 6,
+      "rarity": "STRONGEST",
+      "items": [
+        {
+          "id": "jujutsucraft:hair_fushiguro_megumi_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:sword_black",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "YUJI",
+      "displayName": "Yuji",
+      "techniqueId": 21,
+      "rarity": "STRONGEST",
+      "items": [
+        {
+          "id": "jujutsucraft:uniform_itadori_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:uniform_itadori_leggings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "MAKI",
+      "displayName": "Maki",
+      "techniqueId": -1,
+      "rarity": "STRONGEST",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_fushiguro_toji_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_fushiguro_toji_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:glasses_maki_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:glasses_maki_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:uniform_gojo_boots",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "GOJO",
+      "displayName": "Gojo",
+      "techniqueId": 2,
+      "rarity": "STRONGEST",
+      "items": [
+        {
+          "id": "jujutsucraft:uniform_gojo_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:blindfold_bandage_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:sunglasses_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:uniform_gojo_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:uniform_gojo_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:uniform_gojo_boots",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "SUKUNA",
+      "displayName": "Sukuna",
+      "techniqueId": 1,
+      "rarity": "STRONGEST",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_sukuna_fushiguro_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_fushiguro_toji_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_zenin_boots",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "YUTA",
+      "displayName": "Yuta",
+      "techniqueId": 5,
+      "rarity": "STRONGEST",
+      "items": [
+        {
+          "id": "jujutsucraft:uniform_okkotsu_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:sword_okkotsu_yuta",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "YUKI",
+      "displayName": "Yuki",
+      "techniqueId": 9,
+      "rarity": "STRONGEST",
+      "items": []
+    },
+    {
+      "name": "NAOYA",
+      "displayName": "Naoya",
+      "techniqueId": 19,
+      "rarity": "LEGENDARY",
+      "items": [
+        {
+          "id": "jujutsucraft:cursed_technique_starter",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_zenin_naobito_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_zenin_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_zenin_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_zenin_boots",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:knife",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "MAHITO",
+      "displayName": "Mahito",
+      "techniqueId": 15,
+      "rarity": "LEGENDARY",
+      "items": [
+        {
+          "id": "jujutsucraft:mahito_hand_1",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:mahito_hand_2",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "KASHIMO",
+      "displayName": "Kashimo",
+      "techniqueId": 7,
+      "rarity": "LEGENDARY",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_kashimo_hajime_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_kashimo_hajime_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_kashimo_hajime_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_kashimo_hajime_boots",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:nyoi_staff",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "HIGURUMA",
+      "displayName": "Higuruma",
+      "techniqueId": 27,
+      "rarity": "LEGENDARY",
+      "items": [
+        {
+          "id": "jujutsucraft:gavel",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:uniform_higuruma_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:uniform_higuruma_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:uniform_gojo_boots",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "HAKARI",
+      "displayName": "Hakari",
+      "techniqueId": 29,
+      "rarity": "LEGENDARY",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_hakari_kinji_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_hakari_kinji_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_hakari_kinji_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_hakari_kinji_boots",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "GETO",
+      "displayName": "Geto",
+      "techniqueId": 18,
+      "rarity": "LEGENDARY",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_geto_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_geto_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_geto_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_geto_boots",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:uniform_geto_leggings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "MAHORAGA",
+      "displayName": "Mahoraga",
+      "techniqueId": 16,
+      "rarity": "LEGENDARY",
+      "items": [
+        {
+          "id": "jujutsucraft:mahoraga_wheel_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:sword_of_extermination",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_zenin_2_leggings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "TODO",
+      "displayName": "Todo",
+      "techniqueId": 20,
+      "rarity": "LEGENDARY",
+      "items": [
+        {
+          "id": "jujutsucraft:pendant_todo_aoi",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:muscular_body_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_todo_aoi_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:cursed_technique_starter",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "DAGON",
+      "displayName": "Dagon",
+      "techniqueId": 8,
+      "rarity": "EPIC",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_dagon_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_dagon_chestplate",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "JOGO",
+      "displayName": "Jogo",
+      "techniqueId": 4,
+      "rarity": "EPIC",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_jogo_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_jogo_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:uniform_normal_boots",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "HANAMI",
+      "displayName": "Hanami",
+      "techniqueId": 14,
+      "rarity": "EPIC",
+      "items": [
+        {
+          "id": "jujutsucraft:hanami_eye_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:hanami_hand",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "URAUME",
+      "displayName": "Uraume",
+      "techniqueId": 24,
+      "rarity": "EPIC",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_uraume_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_uraume_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_uraume_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_uraume_boots",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "ISHIGORI",
+      "displayName": "Ishigori",
+      "techniqueId": 12,
+      "rarity": "EPIC",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_ishigori_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_ishigori_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_ishigori_leggings",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "CHOSO",
+      "displayName": "Choso",
+      "techniqueId": 10,
+      "rarity": "EPIC",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_choso_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_choso_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_fushiguro_toji_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:uniform_normal_boots",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "YOROZU",
+      "displayName": "Yorozu",
+      "techniqueId": 39,
+      "rarity": "EPIC",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_yorozu_chestplate",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "KUROURUSHI",
+      "displayName": "Kurourushi",
+      "techniqueId": 23,
+      "rarity": "EPIC",
+      "items": [
+        {
+          "id": "jujutsucraft:kurourushi_body_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:kurourushi_body_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:kurourushi_body_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:fester_life_blade",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "TAKABA",
+      "displayName": "Takaba",
+      "techniqueId": 17,
+      "rarity": "EPIC",
+      "items": [
+        {
+          "id": "jujutsucraft:costume_takaba_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:costume_takaba_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:costume_takaba_boots",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "INUMAKI",
+      "displayName": "Inumaki",
+      "techniqueId": 3,
+      "rarity": "EPIC",
+      "items": [
+        {
+          "id": "jujutsucraft:uniform_normal_helmet",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "NANAMI",
+      "displayName": "Nanami",
+      "techniqueId": 13,
+      "rarity": "EPIC",
+      "items": [
+        {
+          "id": "jujutsucraft:cursed_technique_starter",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:weapon_nanami",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_nanami_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_nanami_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_nanami_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:uniform_normal_boots",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "ANGEL",
+      "displayName": "Angel",
+      "techniqueId": 28,
+      "rarity": "COMMON",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_angel_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_angel_chestplate",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "KUSAKABE",
+      "displayName": "Kusakabe",
+      "techniqueId": 31,
+      "rarity": "COMMON",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_kusakabe_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_kusakabe_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:sword_kusakabe",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "MIGUEL",
+      "displayName": "Miguel",
+      "techniqueId": 30,
+      "rarity": "COMMON",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_miguel_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_miguel_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_miguel_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_miguel_boots",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "OGI",
+      "displayName": "Ogi",
+      "techniqueId": 26,
+      "rarity": "COMMON",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_zenin_2_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_zenin_2_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_zenin_boots",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:sword_ogi",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "INO",
+      "displayName": "Ino",
+      "techniqueId": 40,
+      "rarity": "COMMON",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_ino_takuma_1_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_ino_takuma_1_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_ino_takuma_1_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_ino_takuma_1_boots",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "JINICHI",
+      "displayName": "Jinichi",
+      "techniqueId": 22,
+      "rarity": "COMMON",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_zenin_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_zenin_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_zenin_boots",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "URO",
+      "displayName": "Uro",
+      "techniqueId": 38,
+      "rarity": "COMMON",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_uro_helmet",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_uro_chestplate",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "CHOJURO",
+      "displayName": "Chojuro",
+      "techniqueId": 32,
+      "rarity": "COMMON",
+      "items": [
+        {
+          "id": "jujutsucraft:clothes_zenin_2_chestplate",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_zenin_2_leggings",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_zenin_boots",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "JUNPEI",
+      "displayName": "Junpei",
+      "techniqueId": 35,
+      "rarity": "COMMON",
+      "items": []
+    },
+    {
+      "name": "MOMO",
+      "displayName": "Momo",
+      "techniqueId": 36,
+      "rarity": "COMMON",
+      "items": [
+        {
+          "id": "jujutsucraft:broom",
+          "count": 1
+        },
+        {
+          "id": "jujutsucraft:clothes_nishimiya_helmet",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "RANTA",
+      "displayName": "Ranta",
+      "techniqueId": 46,
+      "rarity": "COMMON",
+      "items": []
+    },
+    {
+      "name": "REGGIE",
+      "displayName": "Reggie Star",
+      "techniqueId": 44,
+      "rarity": "LEGENDARY",
+      "items": []
+    },
+    {
+      "name": "DHRUV",
+      "displayName": "Dhruv",
+      "techniqueId": 37,
+      "rarity": "EPIC",
+      "items": []
+    },
+    {
+      "name": "ROZETSU",
+      "displayName": "Rozetsu",
+      "techniqueId": 43,
+      "rarity": "EPIC",
+      "items": []
+    },
+    {
+      "name": "MEIMEI",
+      "displayName": "Mei Mei",
+      "techniqueId": 11,
+      "rarity": "RARE",
+      "items": [
+        {
+          "id": "jujutsucraft:mei_mei_axe",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "SMALLPOX",
+      "displayName": "Smallpox",
+      "techniqueId": 25,
+      "rarity": "RARE",
+      "items": []
+    },
+    {
+      "name": "KAORI",
+      "displayName": "Kaori",
+      "techniqueId": 41,
+      "rarity": "RARE",
+      "items": []
+    },
+    {
+      "name": "YAGA",
+      "displayName": "Yaga",
+      "techniqueId": 33,
+      "rarity": "RARE",
+      "items": []
+    },
+    {
+      "name": "KUGISAKI",
+      "displayName": "Kugisaki",
+      "techniqueId": 34,
+      "rarity": "RARE",
+      "items": []
+    },
+    {
+      "name": "HAZENOKI",
+      "displayName": "Hazenoki",
+      "techniqueId": 45,
+      "rarity": "RARE",
+      "items": []
+    },
+    {
+      "name": "ALM",
+      "displayName": "Alm",
+      "techniqueId": 50,
+      "rarity": "LEGENDARY",
+      "items": []
+    },
+    {
+      "name": "SOUNDWAVE",
+      "displayName": "Soundwave Manipulation",
+      "techniqueId": 51,
+      "rarity": "STRONGEST",
+      "items": []
+    }
+  ]
+}

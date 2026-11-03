@@ -1,0 +1,9 @@
+/settings.local.json
+/STREAMERBOT-LOCAL.txt
+/interactions/state*.json
+/interactions/state*.tmp
+/interactions/spool/
+**/*.log
+**/*process-id*
+/source/.gradle/
+/source/build/

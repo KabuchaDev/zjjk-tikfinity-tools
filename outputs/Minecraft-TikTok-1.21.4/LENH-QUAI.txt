@@ -1,0 +1,23 @@
+Minecraft Java 1.21.4 - TikFinity / Exec Minecraft Command
+
+Chi dan cho may chu rieng co 1 nguoi choi. Dan tung dong vao mot Action.
+Khong them dau / o dau lenh.
+
+ZOMBIE
+execute at @a[limit=1] run summon minecraft:zombie ~3 ~1 ~ {Tags:["tiktok_mob"]}
+
+BO XUONG
+execute at @a[limit=1] run summon minecraft:skeleton ~3 ~1 ~ {Tags:["tiktok_mob"]}
+
+CREEPER
+execute at @a[limit=1] run summon minecraft:creeper ~3 ~1 ~ {Tags:["tiktok_mob"]}
+
+NHEN
+execute at @a[limit=1] run summon minecraft:spider ~3 ~1 ~ {Tags:["tiktok_mob"]}
+
+DON QUAI DUOC TRIEU HOI (khong xoa thu cung hay quai khac)
+execute at @a[limit=1] run kill @e[tag=tiktok_mob]
+
+Moi Action gan voi mot Event nhan qua. Chon qua truc tiep tu danh sach
+TikFinity cua tai khoan livestream. Kiem tra qua combo truoc buoi live:
+quy uoc 1 qua = 1 quai, tranh chay ca tung lan tang combo va tong combo.

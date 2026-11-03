@@ -1,0 +1,176 @@
+
+[camera]
+	keep_camera_out_of_head_distance_multiplier = 0.75
+	camera_transition_speed_multiplier = 0.25
+	center_camera_when_looking_down_angle = 0.0
+	decoupled_camera = false
+	orient_camera_on_teleport = true
+	view_bobbing_mode = "INHERIT"
+	turn_with_player = false
+	turn_with_player_delay = 40
+
+	[camera.offset]
+		offset_x = -0.75
+		offset_y = 2.0
+		offset_z = 10.0
+		dynamic_offsets = true
+		step_size = 0.025
+
+		[camera.offset.presets]
+			presets_offset_x = []
+			presets_offset_y = []
+			presets_offset_z = []
+
+		[camera.offset.min]
+			min_offset_x = -3.0
+			min_offset_y = -1.0
+			min_offset_z = -3.0
+
+		[camera.offset.max]
+			max_offset_x = 3.0
+			max_offset_y = 3.0
+			max_offset_z = 5.0
+
+		[camera.offset.limits]
+			unlimited_offset_x = false
+			unlimited_offset_y = false
+			unlimited_offset_z = false
+
+		[camera.offset.multiplier]
+
+			[camera.offset.multiplier.passenger]
+				multiplier_offset_x = 1.0
+				multiplier_offset_y = 1.0
+				multiplier_offset_z = 1.0
+
+			[camera.offset.multiplier.sprint]
+				multiplier_offset_x = 1.0
+				multiplier_offset_y = 1.0
+				multiplier_offset_z = 1.0
+
+			[camera.offset.multiplier.aiming]
+				multiplier_offset_x = 1.0
+				multiplier_offset_y = 1.0
+				multiplier_offset_z = 1.0
+
+			[camera.offset.multiplier.fall_flying]
+				multiplier_offset_x = 1.0
+				multiplier_offset_y = 1.0
+				multiplier_offset_z = 1.0
+
+			[camera.offset.multiplier.climbing]
+				multiplier_offset_x = 0.0
+				multiplier_offset_y = 1.0
+				multiplier_offset_z = 1.0
+
+		[camera.offset.modifiers]
+
+			[camera.offset.modifiers.passenger]
+				modifier_offset_x = 0.0
+				modifier_offset_y = 0.0
+				modifier_offset_z = 0.0
+
+			[camera.offset.modifiers.sprint]
+				modifier_offset_x = 0.0
+				modifier_offset_y = 0.0
+				modifier_offset_z = 0.0
+
+			[camera.offset.modifiers.aiming]
+				modifier_offset_x = 0.0
+				modifier_offset_y = 0.0
+				modifier_offset_z = 0.0
+
+			[camera.offset.modifiers.fall_flying]
+				modifier_offset_x = 0.0
+				modifier_offset_y = 0.0
+				modifier_offset_z = 0.0
+
+			[camera.offset.modifiers.climbing]
+				modifier_offset_x = 0.0
+				modifier_offset_y = 0.0
+				modifier_offset_z = 0.0
+
+	[camera.camera_drag]
+		multiplier_axis_x = 0.0
+		multiplier_axis_y = 0.0
+		multiplier_axis_z = 0.0
+
+	[camera.camera_sway]
+		max_angle_axis_x = 0.0
+		max_angle_axis_z = 0.0
+		max_velocity_axis_x = 5.0
+		max_velocity_axis_z = 5.0
+
+	[camera.fov]
+		fov_override_enabled = false
+		fov_override = 70.0
+
+[perspective]
+	default_perspective = "SHOULDER_SURFING"
+	remember_last_perspective = true
+	replace_default_perspective = true
+	first_person_enabled = true
+	third_person_front_enabled = true
+	third_person_back_enabled = true
+
+[player]
+	hide_player_when_looking_up_angle = 0.0
+
+	[player.turning]
+		when_using_item = "ALWAYS"
+		when_attacking = "REQUIRES_TARGET"
+		when_interacting = "ALWAYS"
+		when_picking = "ALWAYS"
+		turning_lock_time = 4
+		turning_speed_multiplier = 0.25
+		turn_player_x_rot_with_camera = true
+		turn_player_y_rot_with_camera = true
+		turn_player_y_rot_angle_limit = 90.0
+
+	[player.transparency]
+		adjust_transparency = true
+		when_aiming = false
+		when_climbing = false
+
+[object_picker]
+	custom_raytrace_distance = 400.0
+	use_custom_raytrace_distance = true
+
+	[object_picker.pick_origin]
+		entity_pick_origin = "PLAYER"
+		block_pick_origin = "PLAYER"
+
+	[object_picker.pick_vector]
+		pick_vector = "CAMERA"
+
+[crosshair]
+	crosshair_type = "STATIC"
+	adaptive_crosshair_hold_items = ["minecraft:snowball", "minecraft:egg", "minecraft:experience_bottle", "minecraft:ender_pearl", "minecraft:splash_potion", "minecraft:fishing_rod", "minecraft:lingering_potion"]
+	adaptive_crosshair_use_items = []
+	adaptive_crosshair_hold_item_properties = ["minecraft:charged"]
+	adaptive_crosshair_use_item_properties = ["minecraft:pull", "minecraft:throwing"]
+
+	[crosshair.obstruction]
+		only_when_aiming = true
+		min_distance_to_crosshair = 8
+		max_distance_to_obstruction = 20.0
+		obstruction_indicator = true
+
+	[crosshair.visibility]
+		first_person = "ALWAYS"
+		third_person_back = "NEVER"
+		third_person_front = "NEVER"
+		shoulder_surfing = "ALWAYS"
+
+[audio]
+	center_player_sounds = false
+
+[integrations]
+
+	[integrations.curios]
+		adaptive_crosshair_items = []
+		adaptive_crosshair_item_properties = []
+
+	[integrations.epicfight]
+		decoupled_camera_lock_on = false
+

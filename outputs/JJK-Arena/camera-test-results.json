@@ -1,0 +1,17 @@
+{
+  "serverVersion": "1.2.4",
+  "cameraVersion": "1.0.1",
+  "boundaryPass": true,
+  "gatePass": true,
+  "observedClientSnapLogs": [
+    "[21:58:14] [Render thread/INFO]: [JJK Camera] Spectator snapped to entity 174 at 62.19999998807907, 81.0, 0.5",
+    "[21:59:52] [Render thread/INFO]: [JJK Camera] Spectator snapped to entity 180 at 55.0, 81.0, 0.0"
+  ],
+  "observedClientVersion": "1.0.0",
+  "finalCompanionBuild": "PASS",
+  "visualConfirmation": "Not observed: Windows capture timed out",
+  "cameraHeight": 2.0,
+  "transitionSpeedUnchanged": 0.25,
+  "cameraDragUnchanged": 0.0,
+  "commentCountersPreserved": true
+}

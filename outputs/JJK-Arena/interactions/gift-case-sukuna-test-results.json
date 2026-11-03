@@ -1,0 +1,585 @@
+{
+  "pass": true,
+  "at": "2026-10-06T07:18:18.067Z",
+  "results": [
+    {
+      "label": "messi x3",
+      "side": "blue",
+      "kind": "miwa",
+      "entity": "miwa_kasumi",
+      "pass": true
+    },
+    {
+      "label": "ronaldo x3",
+      "side": "red",
+      "kind": "miwa",
+      "entity": "miwa_kasumi",
+      "pass": true
+    },
+    {
+      "label": "m10 x5",
+      "side": "blue",
+      "kind": "nobara",
+      "entity": "nobara_kugisaki",
+      "pass": true
+    },
+    {
+      "label": "cr7 x5",
+      "side": "red",
+      "kind": "nobara",
+      "entity": "nobara_kugisaki",
+      "pass": true
+    },
+    {
+      "label": "Rose",
+      "side": "blue",
+      "kind": "yuji_school",
+      "entity": "itadori_yuji",
+      "pass": true
+    },
+    {
+      "label": "rose",
+      "side": "blue",
+      "kind": "yuji_school",
+      "entity": "itadori_yuji",
+      "pass": true
+    },
+    {
+      "label": "ROSE",
+      "side": "blue",
+      "kind": "yuji_school",
+      "entity": "itadori_yuji",
+      "pass": true
+    },
+    {
+      "label": "TikTok",
+      "side": "red",
+      "kind": "yuji_school",
+      "entity": "itadori_yuji",
+      "pass": true
+    },
+    {
+      "label": "tiktok",
+      "side": "red",
+      "kind": "yuji_school",
+      "entity": "itadori_yuji",
+      "pass": true
+    },
+    {
+      "label": "TIKTOK",
+      "side": "red",
+      "kind": "yuji_school",
+      "entity": "itadori_yuji",
+      "pass": true
+    },
+    {
+      "label": "Finger Heart",
+      "side": "blue",
+      "kind": "inumaki",
+      "entity": "inumaki_toge",
+      "pass": true
+    },
+    {
+      "label": "finger heart",
+      "side": "blue",
+      "kind": "inumaki",
+      "entity": "inumaki_toge",
+      "pass": true
+    },
+    {
+      "label": "FINGER HEART",
+      "side": "blue",
+      "kind": "inumaki",
+      "entity": "inumaki_toge",
+      "pass": true
+    },
+    {
+      "label": "Okay",
+      "side": "red",
+      "kind": "inumaki",
+      "entity": "inumaki_toge",
+      "pass": true
+    },
+    {
+      "label": "okay",
+      "side": "red",
+      "kind": "inumaki",
+      "entity": "inumaki_toge",
+      "pass": true
+    },
+    {
+      "label": "OKAY",
+      "side": "red",
+      "kind": "inumaki",
+      "entity": "inumaki_toge",
+      "pass": true
+    },
+    {
+      "label": "Perfume",
+      "side": "blue",
+      "kind": "panda",
+      "entity": "panda_normal",
+      "pass": true
+    },
+    {
+      "label": "perfume",
+      "side": "blue",
+      "kind": "panda",
+      "entity": "panda_normal",
+      "pass": true
+    },
+    {
+      "label": "PERFUME",
+      "side": "blue",
+      "kind": "panda",
+      "entity": "panda_normal",
+      "pass": true
+    },
+    {
+      "label": "Little Kiss",
+      "side": "red",
+      "kind": "panda",
+      "entity": "panda_normal",
+      "pass": true
+    },
+    {
+      "label": "little kiss",
+      "side": "red",
+      "kind": "panda",
+      "entity": "panda_normal",
+      "pass": true
+    },
+    {
+      "label": "LITTLE KISS",
+      "side": "red",
+      "kind": "panda",
+      "entity": "panda_normal",
+      "pass": true
+    },
+    {
+      "label": "Doughnut",
+      "side": "blue",
+      "kind": "todo",
+      "entity": "todo_aoi",
+      "pass": true
+    },
+    {
+      "label": "doughnut",
+      "side": "blue",
+      "kind": "todo",
+      "entity": "todo_aoi",
+      "pass": true
+    },
+    {
+      "label": "DOUGHNUT",
+      "side": "blue",
+      "kind": "todo",
+      "entity": "todo_aoi",
+      "pass": true
+    },
+    {
+      "label": "Warm Cocoa",
+      "side": "red",
+      "kind": "todo",
+      "entity": "todo_aoi",
+      "pass": true
+    },
+    {
+      "label": "warm cocoa",
+      "side": "red",
+      "kind": "todo",
+      "entity": "todo_aoi",
+      "pass": true
+    },
+    {
+      "label": "WARM COCOA",
+      "side": "red",
+      "kind": "todo",
+      "entity": "todo_aoi",
+      "pass": true
+    },
+    {
+      "label": "Little Crown",
+      "side": "blue",
+      "kind": "gojo_school",
+      "entity": "gojo_satoru_school_days",
+      "pass": true
+    },
+    {
+      "label": "little crown",
+      "side": "blue",
+      "kind": "gojo_school",
+      "entity": "gojo_satoru_school_days",
+      "pass": true
+    },
+    {
+      "label": "LITTLE CROWN",
+      "side": "blue",
+      "kind": "gojo_school",
+      "entity": "gojo_satoru_school_days",
+      "pass": true
+    },
+    {
+      "label": "Paper Crane",
+      "side": "red",
+      "kind": "gojo_school",
+      "entity": "gojo_satoru_school_days",
+      "pass": true
+    },
+    {
+      "label": "paper crane",
+      "side": "red",
+      "kind": "gojo_school",
+      "entity": "gojo_satoru_school_days",
+      "pass": true
+    },
+    {
+      "label": "PAPER CRANE",
+      "side": "red",
+      "kind": "gojo_school",
+      "entity": "gojo_satoru_school_days",
+      "pass": true
+    },
+    {
+      "label": "Hand Heart",
+      "side": "blue",
+      "kind": "hakari",
+      "entity": "hakari_kinji",
+      "pass": true
+    },
+    {
+      "label": "hand heart",
+      "side": "blue",
+      "kind": "hakari",
+      "entity": "hakari_kinji",
+      "pass": true
+    },
+    {
+      "label": "HAND HEART",
+      "side": "blue",
+      "kind": "hakari",
+      "entity": "hakari_kinji",
+      "pass": true
+    },
+    {
+      "label": "Mini Star",
+      "side": "red",
+      "kind": "hakari",
+      "entity": "hakari_kinji",
+      "pass": true
+    },
+    {
+      "label": "mini star",
+      "side": "red",
+      "kind": "hakari",
+      "entity": "hakari_kinji",
+      "pass": true
+    },
+    {
+      "label": "MINI STAR",
+      "side": "red",
+      "kind": "hakari",
+      "entity": "hakari_kinji",
+      "pass": true
+    },
+    {
+      "label": "Chatting Popcorn",
+      "side": "blue",
+      "kind": "maki_culling",
+      "entity": "zenin_maki_culling_game",
+      "pass": true
+    },
+    {
+      "label": "chatting popcorn",
+      "side": "blue",
+      "kind": "maki_culling",
+      "entity": "zenin_maki_culling_game",
+      "pass": true
+    },
+    {
+      "label": "CHATTING POPCORN",
+      "side": "blue",
+      "kind": "maki_culling",
+      "entity": "zenin_maki_culling_game",
+      "pass": true
+    },
+    {
+      "label": "Fairy Hide",
+      "side": "red",
+      "kind": "maki_culling",
+      "entity": "zenin_maki_culling_game",
+      "pass": true
+    },
+    {
+      "label": "fairy hide",
+      "side": "red",
+      "kind": "maki_culling",
+      "entity": "zenin_maki_culling_game",
+      "pass": true
+    },
+    {
+      "label": "FAIRY HIDE",
+      "side": "red",
+      "kind": "maki_culling",
+      "entity": "zenin_maki_culling_game",
+      "pass": true
+    },
+    {
+      "label": "Cheering Crab",
+      "side": "blue",
+      "kind": "yuji_shinjuku",
+      "entity": "itadori_yuji_shinjuku",
+      "pass": true
+    },
+    {
+      "label": "cheering crab",
+      "side": "blue",
+      "kind": "yuji_shinjuku",
+      "entity": "itadori_yuji_shinjuku",
+      "pass": true
+    },
+    {
+      "label": "CHEERING CRAB",
+      "side": "blue",
+      "kind": "yuji_shinjuku",
+      "entity": "itadori_yuji_shinjuku",
+      "pass": true
+    },
+    {
+      "label": "Coffee Magic",
+      "side": "red",
+      "kind": "yuji_shinjuku",
+      "entity": "itadori_yuji_shinjuku",
+      "pass": true
+    },
+    {
+      "label": "coffee magic",
+      "side": "red",
+      "kind": "yuji_shinjuku",
+      "entity": "itadori_yuji_shinjuku",
+      "pass": true
+    },
+    {
+      "label": "COFFEE MAGIC",
+      "side": "red",
+      "kind": "yuji_shinjuku",
+      "entity": "itadori_yuji_shinjuku",
+      "pass": true
+    },
+    {
+      "label": "Candy Bouquet",
+      "side": "blue",
+      "kind": "gojo",
+      "entity": "gojo_satoru",
+      "pass": true
+    },
+    {
+      "label": "candy bouquet",
+      "side": "blue",
+      "kind": "gojo",
+      "entity": "gojo_satoru",
+      "pass": true
+    },
+    {
+      "label": "CANDY BOUQUET",
+      "side": "blue",
+      "kind": "gojo",
+      "entity": "gojo_satoru",
+      "pass": true
+    },
+    {
+      "label": "Forest Elf",
+      "side": "red",
+      "kind": "gojo",
+      "entity": "gojo_satoru",
+      "pass": true
+    },
+    {
+      "label": "forest elf",
+      "side": "red",
+      "kind": "gojo",
+      "entity": "gojo_satoru",
+      "pass": true
+    },
+    {
+      "label": "FOREST ELF",
+      "side": "red",
+      "kind": "gojo",
+      "entity": "gojo_satoru",
+      "pass": true
+    },
+    {
+      "label": "Bowknot",
+      "side": "blue",
+      "kind": "jogo",
+      "entity": "jogo",
+      "pass": true
+    },
+    {
+      "label": "bowknot",
+      "side": "blue",
+      "kind": "jogo",
+      "entity": "jogo",
+      "pass": true
+    },
+    {
+      "label": "BOWKNOT",
+      "side": "blue",
+      "kind": "jogo",
+      "entity": "jogo",
+      "pass": true
+    },
+    {
+      "label": "Big Shout Out",
+      "side": "red",
+      "kind": "jogo",
+      "entity": "jogo",
+      "pass": true
+    },
+    {
+      "label": "big shout out",
+      "side": "red",
+      "kind": "jogo",
+      "entity": "jogo",
+      "pass": true
+    },
+    {
+      "label": "BIG SHOUT OUT",
+      "side": "red",
+      "kind": "jogo",
+      "entity": "jogo",
+      "pass": true
+    },
+    {
+      "label": "Music Bubbles",
+      "side": "blue",
+      "kind": "sukuna_itadori",
+      "entity": "sukuna",
+      "pass": true
+    },
+    {
+      "label": "music bubbles",
+      "side": "blue",
+      "kind": "sukuna_itadori",
+      "entity": "sukuna",
+      "pass": true
+    },
+    {
+      "label": "MUSIC BUBBLES",
+      "side": "blue",
+      "kind": "sukuna_itadori",
+      "entity": "sukuna",
+      "pass": true
+    },
+    {
+      "label": "Star Goggles",
+      "side": "red",
+      "kind": "sukuna_itadori",
+      "entity": "sukuna",
+      "pass": true
+    },
+    {
+      "label": "star goggles",
+      "side": "red",
+      "kind": "sukuna_itadori",
+      "entity": "sukuna",
+      "pass": true
+    },
+    {
+      "label": "STAR GOGGLES",
+      "side": "red",
+      "kind": "sukuna_itadori",
+      "entity": "sukuna",
+      "pass": true
+    },
+    {
+      "label": "Rockstar",
+      "side": "blue",
+      "kind": "sukuna_megumi",
+      "entity": "sukuna_fushiguro",
+      "pass": true
+    },
+    {
+      "label": "rockstar",
+      "side": "blue",
+      "kind": "sukuna_megumi",
+      "entity": "sukuna_fushiguro",
+      "pass": true
+    },
+    {
+      "label": "ROCKSTAR",
+      "side": "blue",
+      "kind": "sukuna_megumi",
+      "entity": "sukuna_fushiguro",
+      "pass": true
+    },
+    {
+      "label": "Love Call",
+      "side": "red",
+      "kind": "sukuna_megumi",
+      "entity": "sukuna_fushiguro",
+      "pass": true
+    },
+    {
+      "label": "love call",
+      "side": "red",
+      "kind": "sukuna_megumi",
+      "entity": "sukuna_fushiguro",
+      "pass": true
+    },
+    {
+      "label": "LOVE CALL",
+      "side": "red",
+      "kind": "sukuna_megumi",
+      "entity": "sukuna_fushiguro",
+      "pass": true
+    },
+    {
+      "label": "Juicy Cap",
+      "side": "blue",
+      "kind": "sukuna_heian",
+      "entity": "sukuna_perfect",
+      "pass": true
+    },
+    {
+      "label": "juicy cap",
+      "side": "blue",
+      "kind": "sukuna_heian",
+      "entity": "sukuna_perfect",
+      "pass": true
+    },
+    {
+      "label": "JUICY CAP",
+      "side": "blue",
+      "kind": "sukuna_heian",
+      "entity": "sukuna_perfect",
+      "pass": true
+    },
+    {
+      "label": "Craft Dreamer",
+      "side": "red",
+      "kind": "sukuna_heian",
+      "entity": "sukuna_perfect",
+      "pass": true
+    },
+    {
+      "label": "craft dreamer",
+      "side": "red",
+      "kind": "sukuna_heian",
+      "entity": "sukuna_perfect",
+      "pass": true
+    },
+    {
+      "label": "CRAFT DREAMER",
+      "side": "red",
+      "kind": "sukuna_heian",
+      "entity": "sukuna_perfect",
+      "pass": true
+    },
+    {
+      "label": "Rose combo 17, duplicate final ignored",
+      "pass": true,
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=0 blue=4 queuedRed=0 queuedBlue=13 hits=0 coreHits=0 wins=2:6 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue yuji_school hp=150.0/150.0 damage=33.0 x=51.8 z=0.5 target=none skill=0 targetTicks=0 effects=[]\nblue yuji_school hp=150.0/150.0 damage=33.0 x=51.8 z=18.5 target=none skill=0 targetTicks=0 effects=[]\nblue yuji_school hp=150.0/150.0 damage=33.0 x=55.0 z=-18.0 target=none skill=0 targetTicks=0 effects=[]\nblue yuji_school hp=150.0/150.0 damage=33.0 x=55.0 z=0.0 target=none skill=0 targetTicks=0 effects=[]\n"
+    }
+  ]
+}

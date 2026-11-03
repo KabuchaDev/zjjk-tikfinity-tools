@@ -1,0 +1,225 @@
+Compiled from "AIMiwaKasumiProcedure.java"
+public class net.mcreator.jujutsucraft.procedures.AIMiwaKasumiProcedure {
+  public net.mcreator.jujutsucraft.procedures.AIMiwaKasumiProcedure();
+    Code:
+       0: aload_0
+       1: invokespecial #9                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void execute(net.minecraft.world.level.LevelAccessor, double, double, double, net.minecraft.world.entity.Entity);
+    Code:
+       0: aload         7
+       2: ifnonnull     6
+       5: return
+       6: dconst_0
+       7: dstore        8
+       9: iconst_0
+      10: istore        10
+      12: aload         7
+      14: invokevirtual #19                 // Method net/minecraft/world/entity/Entity.m_6084_:()Z
+      17: ifeq          494
+      20: aload_0
+      21: dload_1
+      22: dload_3
+      23: dload         5
+      25: aload         7
+      27: invokestatic  #23                 // Method net/mcreator/jujutsucraft/procedures/AIActiveProcedure.execute:(Lnet/minecraft/world/level/LevelAccessor;DDDLnet/minecraft/world/entity/Entity;)V
+      30: aload         7
+      32: instanceof    #25                 // class net/minecraft/world/entity/LivingEntity
+      35: ifeq          56
+      38: aload         7
+      40: checkcast     #25                 // class net/minecraft/world/entity/LivingEntity
+      43: astore        11
+      45: aload         11
+      47: getstatic     #31                 // Field net/minecraft/world/effect/MobEffects.f_19600_:Lnet/minecraft/world/effect/MobEffect;
+      50: invokevirtual #35                 // Method net/minecraft/world/entity/LivingEntity.m_21023_:(Lnet/minecraft/world/effect/MobEffect;)Z
+      53: ifne          103
+      56: aload         7
+      58: instanceof    #25                 // class net/minecraft/world/entity/LivingEntity
+      61: ifeq          103
+      64: aload         7
+      66: checkcast     #25                 // class net/minecraft/world/entity/LivingEntity
+      69: astore        12
+      71: aload         12
+      73: invokevirtual #39                 // Method net/minecraft/world/entity/LivingEntity.m_9236_:()Lnet/minecraft/world/level/Level;
+      76: invokevirtual #44                 // Method net/minecraft/world/level/Level.m_5776_:()Z
+      79: ifne          103
+      82: aload         12
+      84: new           #46                 // class net/minecraft/world/effect/MobEffectInstance
+      87: dup
+      88: getstatic     #31                 // Field net/minecraft/world/effect/MobEffects.f_19600_:Lnet/minecraft/world/effect/MobEffect;
+      91: ldc           #47                 // int 2147483647
+      93: iconst_4
+      94: iconst_0
+      95: iconst_0
+      96: invokespecial #50                 // Method net/minecraft/world/effect/MobEffectInstance."<init>":(Lnet/minecraft/world/effect/MobEffect;IIZZ)V
+      99: invokevirtual #54                 // Method net/minecraft/world/entity/LivingEntity.m_7292_:(Lnet/minecraft/world/effect/MobEffectInstance;)Z
+     102: pop
+     103: aload         7
+     105: instanceof    #25                 // class net/minecraft/world/entity/LivingEntity
+     108: ifeq          129
+     111: aload         7
+     113: checkcast     #25                 // class net/minecraft/world/entity/LivingEntity
+     116: astore        11
+     118: aload         11
+     120: getstatic     #57                 // Field net/minecraft/world/effect/MobEffects.f_19606_:Lnet/minecraft/world/effect/MobEffect;
+     123: invokevirtual #35                 // Method net/minecraft/world/entity/LivingEntity.m_21023_:(Lnet/minecraft/world/effect/MobEffect;)Z
+     126: ifne          176
+     129: aload         7
+     131: instanceof    #25                 // class net/minecraft/world/entity/LivingEntity
+     134: ifeq          176
+     137: aload         7
+     139: checkcast     #25                 // class net/minecraft/world/entity/LivingEntity
+     142: astore        12
+     144: aload         12
+     146: invokevirtual #39                 // Method net/minecraft/world/entity/LivingEntity.m_9236_:()Lnet/minecraft/world/level/Level;
+     149: invokevirtual #44                 // Method net/minecraft/world/level/Level.m_5776_:()Z
+     152: ifne          176
+     155: aload         12
+     157: new           #46                 // class net/minecraft/world/effect/MobEffectInstance
+     160: dup
+     161: getstatic     #57                 // Field net/minecraft/world/effect/MobEffects.f_19606_:Lnet/minecraft/world/effect/MobEffect;
+     164: ldc           #47                 // int 2147483647
+     166: iconst_1
+     167: iconst_0
+     168: iconst_0
+     169: invokespecial #50                 // Method net/minecraft/world/effect/MobEffectInstance."<init>":(Lnet/minecraft/world/effect/MobEffect;IIZZ)V
+     172: invokevirtual #54                 // Method net/minecraft/world/entity/LivingEntity.m_7292_:(Lnet/minecraft/world/effect/MobEffectInstance;)Z
+     175: pop
+     176: invokestatic  #61                 // Method net/mcreator/jujutsucraft/procedures/MiwaKasumiDisplayConditionProcedure.execute:()Z
+     179: ifeq          207
+     182: aload         7
+     184: invokevirtual #65                 // Method net/minecraft/world/entity/Entity.getPersistentData:()Lnet/minecraft/nbt/CompoundTag;
+     187: ldc           #67                 // String cnt_target
+     189: dconst_0
+     190: invokevirtual #73                 // Method net/minecraft/nbt/CompoundTag.m_128347_:(Ljava/lang/String;D)V
+     193: aload         7
+     195: invokevirtual #65                 // Method net/minecraft/world/entity/Entity.getPersistentData:()Lnet/minecraft/nbt/CompoundTag;
+     198: ldc           #75                 // String cnt_x
+     200: dconst_0
+     201: invokevirtual #73                 // Method net/minecraft/nbt/CompoundTag.m_128347_:(Ljava/lang/String;D)V
+     204: goto          494
+     207: aload         7
+     209: instanceof    #77                 // class net/minecraft/world/entity/Mob
+     212: ifeq          230
+     215: aload         7
+     217: checkcast     #77                 // class net/minecraft/world/entity/Mob
+     220: astore        11
+     222: aload         11
+     224: invokevirtual #81                 // Method net/minecraft/world/entity/Mob.m_5448_:()Lnet/minecraft/world/entity/LivingEntity;
+     227: goto          231
+     230: aconst_null
+     231: instanceof    #25                 // class net/minecraft/world/entity/LivingEntity
+     234: ifeq          483
+     237: aload         7
+     239: invokevirtual #65                 // Method net/minecraft/world/entity/Entity.getPersistentData:()Lnet/minecraft/nbt/CompoundTag;
+     242: ldc           #75                 // String cnt_x
+     244: aload         7
+     246: invokevirtual #65                 // Method net/minecraft/world/entity/Entity.getPersistentData:()Lnet/minecraft/nbt/CompoundTag;
+     249: ldc           #75                 // String cnt_x
+     251: invokevirtual #85                 // Method net/minecraft/nbt/CompoundTag.m_128459_:(Ljava/lang/String;)D
+     254: dconst_1
+     255: dadd
+     256: invokevirtual #73                 // Method net/minecraft/nbt/CompoundTag.m_128347_:(Ljava/lang/String;D)V
+     259: aload         7
+     261: invokevirtual #65                 // Method net/minecraft/world/entity/Entity.getPersistentData:()Lnet/minecraft/nbt/CompoundTag;
+     264: ldc           #75                 // String cnt_x
+     266: invokevirtual #85                 // Method net/minecraft/nbt/CompoundTag.m_128459_:(Ljava/lang/String;)D
+     269: ldc2_w        #86                 // double 10.0d
+     272: dcmpl
+     273: ifle          494
+     276: aload         7
+     278: invokevirtual #65                 // Method net/minecraft/world/entity/Entity.getPersistentData:()Lnet/minecraft/nbt/CompoundTag;
+     281: ldc           #89                 // String skill
+     283: invokevirtual #85                 // Method net/minecraft/nbt/CompoundTag.m_128459_:(Ljava/lang/String;)D
+     286: dconst_0
+     287: dcmpl
+     288: ifne          494
+     291: aload         7
+     293: invokevirtual #65                 // Method net/minecraft/world/entity/Entity.getPersistentData:()Lnet/minecraft/nbt/CompoundTag;
+     296: ldc           #75                 // String cnt_x
+     298: dconst_0
+     299: invokevirtual #73                 // Method net/minecraft/nbt/CompoundTag.m_128347_:(Ljava/lang/String;D)V
+     302: aload         7
+     304: invokestatic  #94                 // Method net/mcreator/jujutsucraft/procedures/ResetCounterProcedure.execute:(Lnet/minecraft/world/entity/Entity;)V
+     307: aload         7
+     309: instanceof    #25                 // class net/minecraft/world/entity/LivingEntity
+     312: ifeq          339
+     315: aload         7
+     317: checkcast     #25                 // class net/minecraft/world/entity/LivingEntity
+     320: astore        12
+     322: aload         12
+     324: getstatic     #100                // Field net/mcreator/jujutsucraft/init/JujutsucraftModMobEffects.COOLDOWN_TIME_COMBAT:Lnet/minecraftforge/registries/RegistryObject;
+     327: invokevirtual #106                // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;
+     330: checkcast     #108                // class net/minecraft/world/effect/MobEffect
+     333: invokevirtual #35                 // Method net/minecraft/world/entity/LivingEntity.m_21023_:(Lnet/minecraft/world/effect/MobEffect;)Z
+     336: ifne          474
+     339: aload_0
+     340: aload         7
+     342: invokestatic  #113                // Method net/mcreator/jujutsucraft/procedures/GetDistanceNearestEnemyProcedure.execute:(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/Entity;)D
+     345: ldc2_w        #86                 // double 10.0d
+     348: dcmpg
+     349: ifge          474
+     352: aload         7
+     354: invokevirtual #65                 // Method net/minecraft/world/entity/Entity.getPersistentData:()Lnet/minecraft/nbt/CompoundTag;
+     357: ldc           #89                 // String skill
+     359: ldc2_w        #114                // double 3105.0d
+     362: invokevirtual #73                 // Method net/minecraft/nbt/CompoundTag.m_128347_:(Ljava/lang/String;D)V
+     365: aload         7
+     367: instanceof    #25                 // class net/minecraft/world/entity/LivingEntity
+     370: ifeq          418
+     373: aload         7
+     375: checkcast     #25                 // class net/minecraft/world/entity/LivingEntity
+     378: astore        13
+     380: aload         13
+     382: invokevirtual #39                 // Method net/minecraft/world/entity/LivingEntity.m_9236_:()Lnet/minecraft/world/level/Level;
+     385: invokevirtual #44                 // Method net/minecraft/world/level/Level.m_5776_:()Z
+     388: ifne          418
+     391: aload         13
+     393: new           #46                 // class net/minecraft/world/effect/MobEffectInstance
+     396: dup
+     397: getstatic     #118                // Field net/mcreator/jujutsucraft/init/JujutsucraftModMobEffects.CURSED_TECHNIQUE:Lnet/minecraftforge/registries/RegistryObject;
+     400: invokevirtual #106                // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;
+     403: checkcast     #108                // class net/minecraft/world/effect/MobEffect
+     406: ldc           #47                 // int 2147483647
+     408: iconst_0
+     409: iconst_0
+     410: iconst_0
+     411: invokespecial #50                 // Method net/minecraft/world/effect/MobEffectInstance."<init>":(Lnet/minecraft/world/effect/MobEffect;IIZZ)V
+     414: invokevirtual #54                 // Method net/minecraft/world/entity/LivingEntity.m_7292_:(Lnet/minecraft/world/effect/MobEffectInstance;)Z
+     417: pop
+     418: aload         7
+     420: instanceof    #25                 // class net/minecraft/world/entity/LivingEntity
+     423: ifeq          471
+     426: aload         7
+     428: checkcast     #25                 // class net/minecraft/world/entity/LivingEntity
+     431: astore        13
+     433: aload         13
+     435: invokevirtual #39                 // Method net/minecraft/world/entity/LivingEntity.m_9236_:()Lnet/minecraft/world/level/Level;
+     438: invokevirtual #44                 // Method net/minecraft/world/level/Level.m_5776_:()Z
+     441: ifne          471
+     444: aload         13
+     446: new           #46                 // class net/minecraft/world/effect/MobEffectInstance
+     449: dup
+     450: getstatic     #100                // Field net/mcreator/jujutsucraft/init/JujutsucraftModMobEffects.COOLDOWN_TIME_COMBAT:Lnet/minecraftforge/registries/RegistryObject;
+     453: invokevirtual #106                // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;
+     456: checkcast     #108                // class net/minecraft/world/effect/MobEffect
+     459: bipush        100
+     461: iconst_0
+     462: iconst_0
+     463: iconst_0
+     464: invokespecial #50                 // Method net/minecraft/world/effect/MobEffectInstance."<init>":(Lnet/minecraft/world/effect/MobEffect;IIZZ)V
+     467: invokevirtual #54                 // Method net/minecraft/world/entity/LivingEntity.m_7292_:(Lnet/minecraft/world/effect/MobEffectInstance;)Z
+     470: pop
+     471: goto          494
+     474: aload_0
+     475: aload         7
+     477: invokestatic  #123                // Method net/mcreator/jujutsucraft/procedures/CalculateAttackProcedure.execute:(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/Entity;)V
+     480: goto          494
+     483: aload         7
+     485: invokevirtual #65                 // Method net/minecraft/world/entity/Entity.getPersistentData:()Lnet/minecraft/nbt/CompoundTag;
+     488: ldc           #75                 // String cnt_x
+     490: dconst_0
+     491: invokevirtual #73                 // Method net/minecraft/nbt/CompoundTag.m_128347_:(Ljava/lang/String;D)V
+     494: return
+}

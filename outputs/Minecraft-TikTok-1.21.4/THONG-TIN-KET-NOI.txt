@@ -1,0 +1,9 @@
+TikFinity > Setup > Minecraft Connection
+IP: 127.0.0.1
+Port: 4567
+Password: CHANGE_ME_SERVERTAP_KEY
+Player Name: Nhap ten nhan vat Minecraft cua ban.
+
+Minecraft > Multiplayer > Direct Connection
+Server Address: 127.0.0.1
+Minecraft Version: 1.21.4

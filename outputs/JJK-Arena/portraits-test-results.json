@@ -1,0 +1,158 @@
+{
+  "pass": true,
+  "at": "2026-10-06T16:33:45.64Z",
+  "results": [
+    {
+      "command": "jjkarena portraits",
+      "result": "Portraits: revision=1 blocks=13948 changed=0 unprotected=0 red=ronaldo blue=messi\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block -94 166 24 minecraft:light_gray_terracotta run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run setblock -94 166 24 air",
+      "result": "Could not set the block\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block -94 166 24 minecraft:light_gray_terracotta run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block -94 166 -23 minecraft:brown_terracotta run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run setblock -94 166 -23 air",
+      "result": "Could not set the block\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block -94 166 -23 minecraft:brown_terracotta run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block -94 103 24 minecraft:green_wool run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run setblock -94 103 24 air",
+      "result": "Could not set the block\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block -94 103 24 minecraft:green_wool run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block -94 103 -23 minecraft:green_wool run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run setblock -94 103 -23 air",
+      "result": "Could not set the block\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block -94 103 -23 minecraft:green_wool run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block -94 134 0 minecraft:red_nether_bricks run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run setblock -94 134 0 air",
+      "result": "Could not set the block\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block -94 134 0 minecraft:red_nether_bricks run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block 94 158 -36 minecraft:blue_terracotta run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run setblock 94 158 -36 air",
+      "result": "Could not set the block\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block 94 158 -36 minecraft:blue_terracotta run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block 94 158 35 minecraft:polished_blackstone run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run setblock 94 158 35 air",
+      "result": "Could not set the block\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block 94 158 35 minecraft:polished_blackstone run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block 94 111 -36 minecraft:light_blue_terracotta run time query gametime",
+      "result": "The time is 2599044\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run setblock 94 111 -36 air",
+      "result": "Could not set the block\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block 94 111 -36 minecraft:light_blue_terracotta run time query gametime",
+      "result": "The time is 2599045\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block 94 111 35 minecraft:light_blue_wool run time query gametime",
+      "result": "The time is 2599045\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run setblock 94 111 35 air",
+      "result": "Could not set the block\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block 94 111 35 minecraft:light_blue_wool run time query gametime",
+      "result": "The time is 2599045\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block 94 134 0 minecraft:light_blue_concrete run time query gametime",
+      "result": "The time is 2599045\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run setblock 94 134 0 air",
+      "result": "Could not set the block\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield if block 94 134 0 minecraft:light_blue_concrete run time query gametime",
+      "result": "The time is 2599045\n"
+    },
+    {
+      "command": "jjkarena testprotection",
+      "result": "Terrain protection: level=true chunk=true destroy=true hooks=true,true,true\n"
+    },
+    {
+      "command": "jjkarena reset",
+      "result": "Troops cleared, cores restored. Start when ready.\n"
+    },
+    {
+      "command": "jjkarena portraits",
+      "result": "Portraits: revision=1 blocks=13948 changed=0 unprotected=0 red=ronaldo blue=messi\n"
+    },
+    {
+      "command": "jjkarena auditterrain",
+      "result": "Original terrain: blocks=143255 changed=0 temporary=0 blocked=13\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=false paused=false redHP=10000 blueHP=10000 maxHP=10000 red=0 blue=0 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=4:9 intermission=0 redGate=false blueGate=false protected=143255 blocked=13 temporary=0\n"
+    },
+    {
+      "command": "save-all flush",
+      "result": "Saving the game (this may take a moment!)\nSaved the game\n"
+    }
+  ],
+  "afterServerRestart": [
+    "Portraits: revision=1 blocks=13948 changed=0 unprotected=0 red=ronaldo blue=messi",
+    ""
+  ]
+}

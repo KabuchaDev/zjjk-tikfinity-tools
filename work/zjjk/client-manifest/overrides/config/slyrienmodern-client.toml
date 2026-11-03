@@ -1,0 +1,87 @@
+
+["Modern Jujutsu HUD Settings"]
+	#--- MASTER SWITCH ---
+	#Set to false to disable the Modern Jujutsu HUD entirely.
+	#Restart required for full disable.
+	enableModernHud = true
+
+	["Modern Jujutsu HUD Settings".Components]
+		#Show the full-screen Domain Expansion animation.
+		showDomainAnimation = true
+		#Show a visceral screen-flash when performing a Black Flash.
+		showBlackFlashEffect = true
+
+		["Modern Jujutsu HUD Settings".Components.CombatHUD]
+			visible = true
+			#X Offset
+			#Range: -10000 ~ 10000
+			xOffset = 0
+			#Y Offset
+			#Range: -10000 ~ 10000
+			yOffset = -9
+			#Scale
+			#Range: 0.1 ~ 5.0
+			scale = 1.2000000000000002
+
+		["Modern Jujutsu HUD Settings".Components.MovementHUD]
+			visible = true
+			#Range: -10000 ~ 10000
+			xOffset = 757
+			#Range: -10000 ~ 10000
+			yOffset = -113
+			#Range: 0.1 ~ 5.0
+			scale = 1.0
+
+		["Modern Jujutsu HUD Settings".Components.DefensiveHUD]
+			visible = true
+			#Range: -10000 ~ 10000
+			xOffset = 0
+			#Range: -10000 ~ 10000
+			yOffset = 0
+			#Range: 0.1 ~ 5.0
+			scale = 1.0
+
+		["Modern Jujutsu HUD Settings".Components.AbilitiesHUD]
+			visible = false
+			#Range: -10000 ~ 10000
+			xOffset = 0
+			#Range: -10000 ~ 10000
+			yOffset = 0
+			#Range: 0.1 ~ 5.0
+			scale = 1.0
+			showTechnique = true
+			showSimpleDomain = true
+			showRCT = true
+			showDomainAmp = true
+
+		["Modern Jujutsu HUD Settings".Components.SixEyesHUD]
+			#Enable the Six Eyes Analysis element
+			visible = true
+			#X Offset (Only applies to 2D Mode)
+			#Range: -10000 ~ 10000
+			xOffset = 0
+			#Y Offset (Only applies to 2D Mode)
+			#Range: -10000 ~ 10000
+			yOffset = 0
+			#Scale of the Six Eyes Element (Applies to both 2D and Hologram)
+			#Range: 0.1 ~ 5.0
+			scale = 1.0
+			#Project the Six Eyes analysis as a 3D hologram directly in the world instead of a static 2D HUD element.
+			hologramMode = false
+
+		["Modern Jujutsu HUD Settings".Components.TempStatusHUD]
+			visible = true
+			#Range: -10000 ~ 10000
+			xOffset = 0
+			#Range: -10000 ~ 10000
+			yOffset = 0
+			#Range: 0.1 ~ 5.0
+			scale = 1.0
+
+	["Modern Jujutsu HUD Settings".ScrollWheelCycling]
+		#Enable scrolling to cycle through Jujutsucraft skills.
+		enableScrollWheelCycling = true
+		#The modifier key required to cycle skills via scroll wheel. Options: NONE, SHIFT, CTRL, ALT
+		#If set to NONE, scroll wheel will always cycle skills instead of changing hotbar slots.
+		scrollCycleModifier = "ALT"
+

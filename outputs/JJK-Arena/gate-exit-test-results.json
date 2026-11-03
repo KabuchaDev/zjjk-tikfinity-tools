@@ -1,0 +1,406 @@
+{
+  "pass": true,
+  "at": "2026-10-06T14:53:34.423Z",
+  "results": [
+    {
+      "defending": "blue",
+      "positions": [
+        {
+          "tag": "gate_attacker_0",
+          "p": [
+            62.19999998807907,
+            81,
+            0.5
+          ]
+        },
+        {
+          "tag": "gate_attacker_1",
+          "p": [
+            62.19999998807907,
+            81,
+            0.5
+          ]
+        },
+        {
+          "tag": "gate_attacker_2",
+          "p": [
+            62.19999998807907,
+            81,
+            0.5
+          ]
+        },
+        {
+          "tag": "gate_summon",
+          "p": [
+            62.19999998807907,
+            81,
+            0.5
+          ]
+        }
+      ],
+      "shieldHP": 10000,
+      "closedGateReentry": true,
+      "friendlyNotMoved": true,
+      "reopened": true
+    },
+    {
+      "defending": "red",
+      "positions": [
+        {
+          "tag": "gate_attacker_0",
+          "p": [
+            -61.19999998807907,
+            81,
+            0.5
+          ]
+        },
+        {
+          "tag": "gate_attacker_1",
+          "p": [
+            -61.19999998807907,
+            81,
+            0.5
+          ]
+        },
+        {
+          "tag": "gate_attacker_2",
+          "p": [
+            -61.19999998807907,
+            81,
+            0.5
+          ]
+        },
+        {
+          "tag": "gate_summon",
+          "p": [
+            -61.19999998807907,
+            81,
+            0.5
+          ]
+        }
+      ],
+      "shieldHP": 9962,
+      "closedGateReentry": true,
+      "friendlyNotMoved": true,
+      "reopened": true
+    }
+  ],
+  "transcript": [
+    {
+      "command": "jjkarena start",
+      "result": "Match started. Ronaldo=red, Messi=blue.\n"
+    },
+    {
+      "command": "jjkarena spawn red miwa 1 GateTest",
+      "result": "Queued 1 miwa for red; queue=1; active=0\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=jjkarena_red,tag=!gate_test] add gate_attacker_0",
+      "result": "Added tag 'gate_attacker_0' to RONALDO | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=gate_attacker_0,limit=1] add gate_test",
+      "result": "Added tag 'gate_test' to RONALDO | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data merge entity @e[tag=gate_attacker_0,limit=1] {NoAI:1b,Invulnerable:1b,NoGravity:1b}",
+      "result": "Modified entity data of RONALDO | GateTest | MIWA\n"
+    },
+    {
+      "command": "jjkarena spawn red miwa 1 GateTest",
+      "result": "Queued 1 miwa for red; queue=1; active=1\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=jjkarena_red,tag=!gate_test] add gate_attacker_1",
+      "result": "Added tag 'gate_attacker_1' to RONALDO | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=gate_attacker_1,limit=1] add gate_test",
+      "result": "Added tag 'gate_test' to RONALDO | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data merge entity @e[tag=gate_attacker_1,limit=1] {NoAI:1b,Invulnerable:1b,NoGravity:1b}",
+      "result": "Modified entity data of RONALDO | GateTest | MIWA\n"
+    },
+    {
+      "command": "jjkarena spawn red miwa 1 GateTest",
+      "result": "Queued 1 miwa for red; queue=1; active=2\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=jjkarena_red,tag=!gate_test] add gate_attacker_2",
+      "result": "Added tag 'gate_attacker_2' to RONALDO | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=gate_attacker_2,limit=1] add gate_test",
+      "result": "Added tag 'gate_test' to RONALDO | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data merge entity @e[tag=gate_attacker_2,limit=1] {NoAI:1b,Invulnerable:1b,NoGravity:1b}",
+      "result": "Modified entity data of RONALDO | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tp @e[tag=gate_attacker_0,limit=1] 72.5 81 3.5",
+      "result": "Teleported RONALDO | GateTest | MIWA to 72.500000, 81.000000, 3.500000\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tp @e[tag=gate_attacker_1,limit=1] 64 81 3.5",
+      "result": "Teleported RONALDO | GateTest | MIWA to 64.500000, 81.000000, 3.500000\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tp @e[tag=gate_attacker_2,limit=1] 72.5 92 3.5",
+      "result": "Teleported RONALDO | GateTest | MIWA to 72.500000, 92.000000, 3.500000\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run summon jujutsucraft:miwa_kasumi 72.5 81 -3.5 {Tags:[\"gate_summon\",\"jjkarena_red\"],NoAI:1b,Invulnerable:1b,NoGravity:1b}",
+      "result": "Summoned new Kasumi Miwa\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=3 blue=0 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=3:8 intermission=0 redGate=true blueGate=false protected=129695 blocked=0 temporary=561\nred miwa hp=60.0/60.0 damage=19.0 x=72.5 z=3.5 target=none skill=0 targetTicks=0 effects=[]\nred miwa hp=60.0/60.0 damage=19.0 x=64.5 z=3.5 target=none skill=0 targetTicks=0 effects=[]\nred miwa hp=60.0/60.0 damage=19.0 x=72.5 z=3.5 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "command": "jjkarena spawn blue miwa 1 GateTest",
+      "result": "Queued 1 miwa for blue; queue=1; active=0\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=jjkarena_blue,tag=!gate_test] add gate_defender",
+      "result": "Added tag 'gate_defender' to MESSI | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=gate_defender,limit=1] add gate_test",
+      "result": "Added tag 'gate_test' to MESSI | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data merge entity @e[tag=gate_defender,limit=1] {NoAI:1b,Invulnerable:1b,NoGravity:1b}",
+      "result": "Modified entity data of MESSI | GateTest | MIWA\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=3 blue=1 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=3:8 intermission=0 redGate=true blueGate=true protected=129695 blocked=0 temporary=1122\nred miwa hp=60.0/60.0 damage=19.0 x=62.2 z=0.5 target=miwa_kasumi skill=3105 targetTicks=30 effects=[simple_domain]\nred miwa hp=60.0/60.0 damage=19.0 x=62.2 z=0.5 target=miwa_kasumi skill=3105 targetTicks=30 effects=[simple_domain]\nred miwa hp=60.0/60.0 damage=19.0 x=62.2 z=0.5 target=miwa_kasumi skill=3105 targetTicks=30 effects=[simple_domain]\nblue miwa hp=60.0/60.0 damage=19.0 x=56.5 z=1.4 target=miwa_kasumi skill=3105 targetTicks=30 effects=[simple_domain]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_attacker_0,limit=1] Pos",
+      "result": "RONALDO | GateTest | MIWA has the following entity data: [62.19999998807907d, 81.0d, 0.5d]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_attacker_0,limit=1] DeathTime",
+      "result": "RONALDO | GateTest | MIWA has the following entity data: 0s\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_attacker_1,limit=1] Pos",
+      "result": "RONALDO | GateTest | MIWA has the following entity data: [62.19999998807907d, 81.0d, 0.5d]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_attacker_1,limit=1] DeathTime",
+      "result": "RONALDO | GateTest | MIWA has the following entity data: 0s\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_attacker_2,limit=1] Pos",
+      "result": "RONALDO | GateTest | MIWA has the following entity data: [62.19999998807907d, 81.0d, 0.5d]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_attacker_2,limit=1] DeathTime",
+      "result": "RONALDO | GateTest | MIWA has the following entity data: 0s\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_summon,limit=1] Pos",
+      "result": "Kasumi Miwa has the following entity data: [62.19999998807907d, 81.0d, 0.5d]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_summon,limit=1] DeathTime",
+      "result": "Kasumi Miwa has the following entity data: 0s\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tp @e[tag=gate_attacker_0,limit=1] 72.5 81 3.5",
+      "result": "Teleported RONALDO | GateTest | MIWA to 72.500000, 81.000000, 3.500000\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_attacker_0,limit=1] Pos",
+      "result": "RONALDO | GateTest | MIWA has the following entity data: [62.19999998807907d, 81.0d, 0.5d]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tp @e[tag=gate_defender,limit=1] 72.5 81 -3.5",
+      "result": "Teleported MESSI | GateTest | MIWA to 72.500000, 81.000000, -3.500000\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_defender,limit=1] Pos",
+      "result": "MESSI | GateTest | MIWA has the following entity data: [72.5d, 81.0d, -3.5d]\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=3 blue=1 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=3:8 intermission=0 redGate=true blueGate=true protected=129695 blocked=0 temporary=1122\nred miwa hp=60.0/60.0 damage=19.0 x=62.2 z=0.5 target=miwa_kasumi skill=3105 targetTicks=65 effects=[simple_domain]\nred miwa hp=60.0/60.0 damage=19.0 x=62.2 z=0.5 target=miwa_kasumi skill=3105 targetTicks=65 effects=[simple_domain]\nred miwa hp=60.0/60.0 damage=19.0 x=62.2 z=0.5 target=miwa_kasumi skill=3105 targetTicks=65 effects=[simple_domain]\nblue miwa hp=60.0/60.0 damage=19.0 x=72.5 z=-3.5 target=miwa_kasumi skill=3105 targetTicks=65 effects=[simple_domain]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run kill @e[tag=gate_defender,limit=1]",
+      "result": "Killed MESSI | GateTest | MIWA\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=9943 maxHP=10000 red=3 blue=0 queuedRed=0 queuedBlue=0 hits=1 coreHits=3 wins=3:8 intermission=0 redGate=true blueGate=false protected=129695 blocked=0 temporary=561\nred miwa hp=60.0/60.0 damage=19.0 x=62.2 z=0.5 target=none skill=3105 targetTicks=0 effects=[simple_domain]\nred miwa hp=60.0/60.0 damage=19.0 x=62.2 z=0.5 target=none skill=3105 targetTicks=0 effects=[simple_domain]\nred miwa hp=60.0/60.0 damage=19.0 x=62.2 z=0.5 target=none skill=3105 targetTicks=0 effects=[simple_domain]\n"
+    },
+    {
+      "command": "jjkarena start",
+      "result": "Match started. Ronaldo=red, Messi=blue.\n"
+    },
+    {
+      "command": "jjkarena spawn blue miwa 1 GateTest",
+      "result": "Queued 1 miwa for blue; queue=1; active=0\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=jjkarena_blue,tag=!gate_test] add gate_attacker_0",
+      "result": "Added tag 'gate_attacker_0' to MESSI | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=gate_attacker_0,limit=1] add gate_test",
+      "result": "Added tag 'gate_test' to MESSI | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data merge entity @e[tag=gate_attacker_0,limit=1] {NoAI:1b,Invulnerable:1b,NoGravity:1b}",
+      "result": "Modified entity data of MESSI | GateTest | MIWA\n"
+    },
+    {
+      "command": "jjkarena spawn blue miwa 1 GateTest",
+      "result": "Queued 1 miwa for blue; queue=1; active=1\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=jjkarena_blue,tag=!gate_test] add gate_attacker_1",
+      "result": "Added tag 'gate_attacker_1' to MESSI | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=gate_attacker_1,limit=1] add gate_test",
+      "result": "Added tag 'gate_test' to MESSI | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data merge entity @e[tag=gate_attacker_1,limit=1] {NoAI:1b,Invulnerable:1b,NoGravity:1b}",
+      "result": "Modified entity data of MESSI | GateTest | MIWA\n"
+    },
+    {
+      "command": "jjkarena spawn blue miwa 1 GateTest",
+      "result": "Queued 1 miwa for blue; queue=1; active=2\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=jjkarena_blue,tag=!gate_test] add gate_attacker_2",
+      "result": "Added tag 'gate_attacker_2' to MESSI | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=gate_attacker_2,limit=1] add gate_test",
+      "result": "Added tag 'gate_test' to MESSI | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data merge entity @e[tag=gate_attacker_2,limit=1] {NoAI:1b,Invulnerable:1b,NoGravity:1b}",
+      "result": "Modified entity data of MESSI | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tp @e[tag=gate_attacker_0,limit=1] -65.5 81 3.5",
+      "result": "Teleported MESSI | GateTest | MIWA to -65.500000, 81.000000, 3.500000\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tp @e[tag=gate_attacker_1,limit=1] -74 81 3.5",
+      "result": "Teleported MESSI | GateTest | MIWA to -73.500000, 81.000000, 3.500000\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tp @e[tag=gate_attacker_2,limit=1] -65.5 92 3.5",
+      "result": "Teleported MESSI | GateTest | MIWA to -65.500000, 92.000000, 3.500000\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run summon jujutsucraft:miwa_kasumi -65.5 81 -3.5 {Tags:[\"gate_summon\",\"jjkarena_blue\"],NoAI:1b,Invulnerable:1b,NoGravity:1b}",
+      "result": "Summoned new Kasumi Miwa\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10000 blueHP=10000 maxHP=10000 red=0 blue=3 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=3:8 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue miwa hp=60.0/60.0 damage=19.0 x=-65.5 z=3.5 target=none skill=0 targetTicks=0 effects=[]\nblue miwa hp=60.0/60.0 damage=19.0 x=-73.5 z=3.5 target=none skill=0 targetTicks=0 effects=[]\nblue miwa hp=60.0/60.0 damage=19.0 x=-65.5 z=3.5 target=none skill=0 targetTicks=0 effects=[]\n"
+    },
+    {
+      "command": "jjkarena spawn red miwa 1 GateTest",
+      "result": "Queued 1 miwa for red; queue=1; active=0\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=jjkarena_red,tag=!gate_test] add gate_defender",
+      "result": "Added tag 'gate_defender' to RONALDO | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tag @e[tag=gate_defender,limit=1] add gate_test",
+      "result": "Added tag 'gate_test' to RONALDO | GateTest | MIWA\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data merge entity @e[tag=gate_defender,limit=1] {NoAI:1b,Invulnerable:1b,NoGravity:1b}",
+      "result": "Modified entity data of RONALDO | GateTest | MIWA\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=9962 blueHP=10000 maxHP=10000 red=1 blue=3 queuedRed=0 queuedBlue=0 hits=0 coreHits=2 wins=3:8 intermission=0 redGate=true blueGate=true protected=129695 blocked=0 temporary=1122\nblue miwa hp=60.0/60.0 damage=19.0 x=-61.2 z=0.5 target=miwa_kasumi skill=0 targetTicks=24 effects=[]\nblue miwa hp=60.0/60.0 damage=19.0 x=-61.2 z=0.5 target=miwa_kasumi skill=0 targetTicks=24 effects=[]\nblue miwa hp=60.0/60.0 damage=19.0 x=-61.2 z=0.5 target=miwa_kasumi skill=0 targetTicks=24 effects=[]\nred miwa hp=60.0/60.0 damage=19.0 x=-55.0 z=18.0 target=miwa_kasumi skill=0 targetTicks=24 effects=[]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_attacker_0,limit=1] Pos",
+      "result": "MESSI | GateTest | MIWA has the following entity data: [-61.19999998807907d, 81.0d, 0.5d]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_attacker_0,limit=1] DeathTime",
+      "result": "MESSI | GateTest | MIWA has the following entity data: 0s\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_attacker_1,limit=1] Pos",
+      "result": "MESSI | GateTest | MIWA has the following entity data: [-61.19999998807907d, 81.0d, 0.5d]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_attacker_1,limit=1] DeathTime",
+      "result": "MESSI | GateTest | MIWA has the following entity data: 0s\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_attacker_2,limit=1] Pos",
+      "result": "MESSI | GateTest | MIWA has the following entity data: [-61.19999998807907d, 81.0d, 0.5d]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_attacker_2,limit=1] DeathTime",
+      "result": "MESSI | GateTest | MIWA has the following entity data: 0s\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_summon,limit=1] Pos",
+      "result": "Kasumi Miwa has the following entity data: [-61.19999998807907d, 81.0d, 0.5d]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_summon,limit=1] DeathTime",
+      "result": "Kasumi Miwa has the following entity data: 0s\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tp @e[tag=gate_attacker_0,limit=1] -65.5 81 3.5",
+      "result": "Teleported MESSI | GateTest | MIWA to -65.500000, 81.000000, 3.500000\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_attacker_0,limit=1] Pos",
+      "result": "MESSI | GateTest | MIWA has the following entity data: [-61.19999998807907d, 81.0d, 0.5d]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run tp @e[tag=gate_defender,limit=1] -65.5 81 -3.5",
+      "result": "Teleported RONALDO | GateTest | MIWA to -65.500000, 81.000000, -3.500000\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run data get entity @e[tag=gate_defender,limit=1] Pos",
+      "result": "RONALDO | GateTest | MIWA has the following entity data: [-65.5d, 81.0d, -3.5d]\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=9962 blueHP=10000 maxHP=10000 red=1 blue=3 queuedRed=0 queuedBlue=0 hits=0 coreHits=2 wins=3:8 intermission=0 redGate=true blueGate=true protected=129695 blocked=0 temporary=1122\nblue miwa hp=60.0/60.0 damage=19.0 x=-61.2 z=0.5 target=miwa_kasumi skill=3105 targetTicks=58 effects=[simple_domain]\nblue miwa hp=60.0/60.0 damage=19.0 x=-61.2 z=0.5 target=miwa_kasumi skill=3105 targetTicks=58 effects=[simple_domain]\nblue miwa hp=60.0/60.0 damage=19.0 x=-61.2 z=0.5 target=miwa_kasumi skill=3105 targetTicks=58 effects=[simple_domain]\nred miwa hp=60.0/60.0 damage=19.0 x=-65.5 z=-3.5 target=miwa_kasumi skill=3105 targetTicks=58 effects=[simple_domain]\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield run kill @e[tag=gate_defender,limit=1]",
+      "result": "Killed RONALDO | GateTest | MIWA\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=9962 blueHP=10000 maxHP=10000 red=0 blue=3 queuedRed=0 queuedBlue=0 hits=1 coreHits=2 wins=3:8 intermission=0 redGate=false blueGate=true protected=129695 blocked=0 temporary=561\nblue miwa hp=60.0/60.0 damage=19.0 x=-61.2 z=0.5 target=none skill=3105 targetTicks=0 effects=[simple_domain]\nblue miwa hp=60.0/60.0 damage=19.0 x=-61.2 z=0.5 target=none skill=3105 targetTicks=0 effects=[simple_domain]\nblue miwa hp=60.0/60.0 damage=19.0 x=-61.2 z=0.5 target=none skill=3105 targetTicks=0 effects=[simple_domain]\n"
+    },
+    {
+      "command": "jjkarena auditterrain",
+      "result": "Original terrain: blocks=129695 changed=0 temporary=561 blocked=0\n"
+    },
+    {
+      "command": "jjkarena reset",
+      "result": "Troops cleared, cores restored. Start when ready.\n"
+    },
+    {
+      "command": "save-all flush",
+      "result": "Saving the game (this may take a moment!)\nSaved the game\n"
+    }
+  ]
+}

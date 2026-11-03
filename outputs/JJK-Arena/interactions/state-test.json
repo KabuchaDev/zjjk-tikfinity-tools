@@ -1,0 +1,38 @@
+{
+  "counters": {
+    "messi": 0,
+    "ronaldo": 0,
+    "m10": 0,
+    "cr7": 0
+  },
+  "seen": {
+    "gift:cinema-a3afaaef-69ba-480b-a98e-8e30ee411632:5655:6bb5941e-58be-4b17-b6fd-2316e56fbd19": 1791321396359
+  },
+  "jobs": [],
+  "inflight": null,
+  "held": [],
+  "giftCatalog": {
+    "5655": {
+      "name": "rose",
+      "coins": 0,
+      "seenAt": 1791321396359
+    },
+    "unknown-cinema": {
+      "name": "Unmapped test gift",
+      "coins": 0,
+      "seenAt": 1791321400230
+    }
+  },
+  "audience": {
+    "followed": {
+      "8a4f17900b42b073eb91e6c754a504e04ff77d5cea57396ac7b98e04a41e92a5": 1791321400235
+    },
+    "welcomed": {
+      "8a4f17900b42b073eb91e6c754a504e04ff77d5cea57396ac7b98e04a41e92a5": 1791321396346
+    },
+    "seenGifts": {
+      "a4393196fc52020d23d53cfbf84b77a5037183639d13da488a44726029539b0e": 1791321400230
+    },
+    "jobs": []
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "pass": true,
+  "at": "2026-10-06T16:09:37.687Z",
+  "results": [
+    {
+      "label": "Empty arena",
+      "status": "autoViewers=0 target=none\n"
+    },
+    {
+      "label": "First free troop",
+      "status": "autoViewers=0 target=miwa side=red coins=0 order=1 uuid=8c344714-f8aa-4b03-9b71-589e37d99124\n"
+    },
+    {
+      "label": "Same price prefers newest",
+      "status": "autoViewers=0 target=nobara side=blue coins=0 order=2 uuid=623ca2d7-8e87-4f5d-808c-96443dfe6e05\n"
+    },
+    {
+      "label": "One coin outranks comments",
+      "status": "autoViewers=0 target=yuji_school side=red coins=1 order=3 uuid=5e9ef63e-43e5-4ac3-a686-6c9263619ece\n"
+    },
+    {
+      "label": "New free troop does not interrupt paid troop",
+      "status": "autoViewers=0 target=yuji_school side=red coins=1 order=3 uuid=5e9ef63e-43e5-4ac3-a686-6c9263619ece\n"
+    },
+    {
+      "label": "249 coin troop",
+      "status": "autoViewers=0 target=gojo side=blue coins=249 order=5 uuid=1641e157-14f3-4177-829a-6418fc36f600\n"
+    },
+    {
+      "label": "Cheaper gift does not interrupt",
+      "status": "autoViewers=0 target=gojo side=blue coins=249 order=5 uuid=1641e157-14f3-4177-829a-6418fc36f600\n"
+    },
+    {
+      "label": "299 coin upgrade",
+      "status": "autoViewers=0 target=sukuna_megumi side=red coins=299 order=7 uuid=01c05654-7664-43da-a2ad-d543d861f79f\n"
+    },
+    {
+      "label": "349 coin upgrade",
+      "status": "autoViewers=0 target=sukuna_heian side=blue coins=349 order=8 uuid=99ff96e7-e719-4e13-8898-4aa182f36b57\n"
+    },
+    {
+      "label": "Newest equal-price troop across teams",
+      "status": "autoViewers=0 target=sukuna_heian side=red coins=349 order=9 uuid=3ad5e99a-b791-465a-aff1-ff1a0277ae74\n"
+    },
+    {
+      "label": "Death falls back to surviving highest price",
+      "status": "autoViewers=0 target=sukuna_heian side=blue coins=349 order=8 uuid=99ff96e7-e719-4e13-8898-4aa182f36b57\n"
+    },
+    {
+      "label": "Falls back to 299",
+      "status": "autoViewers=0 target=sukuna_megumi side=red coins=299 order=7 uuid=01c05654-7664-43da-a2ad-d543d861f79f\n"
+    },
+    {
+      "label": "Falls back to 249",
+      "status": "autoViewers=0 target=gojo side=blue coins=249 order=5 uuid=1641e157-14f3-4177-829a-6418fc36f600\n"
+    },
+    {
+      "label": "Reset clears selection",
+      "status": "autoViewers=0 target=none\n"
+    },
+    {
+      "label": "Different characters at same 149 price prefer newest",
+      "status": "autoViewers=0 target=jogo side=blue coins=149 order=11 uuid=2880fcaa-dfe7-4807-bbb9-11ca1c883ebd\n"
+    }
+  ],
+  "configuredGiftPrices": {
+    "miwa": 0,
+    "nobara": 0,
+    "yuji_school": 1,
+    "inumaki": 5,
+    "panda": 20,
+    "todo": 30,
+    "gojo_school": 99,
+    "hakari": 100,
+    "maki_culling": 149,
+    "jogo": 149,
+    "yuji_shinjuku": 199,
+    "gojo": 249,
+    "sukuna_itadori": 249,
+    "sukuna_megumi": 299,
+    "sukuna_heian": 349,
+    "basic": 0,
+    "elite": 0,
+    "boss": 249
+  },
+  "clientKeyTest": "Requires Minecraft restart and physical key test"
+}

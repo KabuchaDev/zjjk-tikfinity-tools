@@ -1,0 +1,224 @@
+{
+  "missions": [
+    {
+      "id": "daily_kill_grade1_spirits",
+      "name": "Exorcise Weak Spirits",
+      "description": "Eliminate Grade 1 cursed spirits lurking in the area.",
+      "type": "DAILY",
+      "objective": "KILL_CURSED_SPIRITS",
+      "target": "grade_1",
+      "requiredCount": 5,
+      "rankRequirement": 0,
+      "rewards": [
+        {
+          "items": [
+            {
+              "item": "jujutsucraft:stevenson_screen_spawn_egg",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly_kill_jogo",
+      "name": "Volcanic Threat: Jogo",
+      "description": "The cursed spirit Jogo has been sighted. He controls flames - approach with extreme caution.",
+      "type": "WEEKLY",
+      "objective": "KILL_ENTITY",
+      "target": "jujutsucraft:jogo",
+      "requiredCount": 1,
+      "rankRequirement": 4,
+      "rewards": [
+        {
+          "items": [
+            {
+              "item": "jujutsucraft:item_master_domain_expansion",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly_kill_hanami",
+      "name": "Forest Curse: Hanami",
+      "description": "Hanami, the cursed spirit born from fear of forests, must be stopped.",
+      "type": "WEEKLY",
+      "objective": "KILL_ENTITY",
+      "target": "jujutsucraft:hanami",
+      "requiredCount": 1,
+      "rankRequirement": 4,
+      "rewards": [
+        {
+          "items": [
+            {
+              "item": "jujutsucraft:item_master_reverse_cursed_technique",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly_kill_mahito",
+      "name": "Soul Manipulator: Mahito",
+      "description": "Mahito is manipulating human souls. End his rampage.",
+      "type": "WEEKLY",
+      "objective": "KILL_ENTITY",
+      "target": "jujutsucraft:mahito",
+      "requiredCount": 1,
+      "rankRequirement": 4,
+      "rewards": [
+        {
+          "items": [
+            {
+              "item": "jujutsucraft:item_master_simple_domain",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly_mass_exorcism",
+      "name": "Mass Exorcism",
+      "description": "Cursed spirit activity has spiked. Exorcise as many as you can this week.",
+      "type": "WEEKLY",
+      "objective": "KILL_CURSED_SPIRITS",
+      "target": "",
+      "requiredCount": 100,
+      "rankRequirement": 2,
+      "rewards": [
+        {
+          "items": [
+            {
+              "item": "jujutsucraft:cursed_technique_changer",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekly_pvp",
+      "name": "Sorcerer Duels",
+      "description": "Test your skills against other sorcerers in combat.",
+      "type": "WEEKLY",
+      "objective": "KILL_PLAYERS",
+      "target": "",
+      "requiredCount": 5,
+      "rankRequirement": 2,
+      "rewards": [
+        {
+          "items": [
+            {
+              "item": "jujutsucraft:playful_cloud",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special_sukuna",
+      "name": "The King of Curses",
+      "description": "Ryomen Sukuna has manifested. Only the strongest sorcerers should attempt this.",
+      "type": "SPECIAL",
+      "objective": "KILL_ENTITY",
+      "target": "jujutsucraft:sukuna",
+      "requiredCount": 1,
+      "rankRequirement": 5,
+      "rewards": [
+        {
+          "items": [
+            {
+              "item": "jujutsucraft:sukuna_finger",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special_sukuna_perfect",
+      "name": "Sukuna: Perfect Form",
+      "description": "Sukuna has achieved his true form. This may be the end...",
+      "type": "SPECIAL",
+      "objective": "KILL_ENTITY",
+      "target": "jujutsucraft:sukuna_perfect",
+      "requiredCount": 1,
+      "rankRequirement": 5,
+      "rewards": [
+        {
+          "items": [
+            {
+              "item": "jujutsucraft:item_master_six_eyes",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special_kenjaku",
+      "name": "Brain Hunter: Kenjaku",
+      "description": "Kenjaku has been plotting for a thousand years. Put an end to his schemes.",
+      "type": "SPECIAL",
+      "objective": "KILL_ENTITY",
+      "target": "jujutsucraft:kenjaku",
+      "requiredCount": 1,
+      "rankRequirement": 5,
+      "rewards": [
+        {
+          "items": [
+            {
+              "item": "jujutsucraft:item_master_domain_expansion",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special_mahoraga",
+      "name": "Eight-Handled Sword: Mahoraga",
+      "description": "The most powerful shikigami has been unleashed. No Ten Shadows user has ever tamed it.",
+      "type": "SPECIAL",
+      "objective": "KILL_ENTITY",
+      "target": "jujutsucraft:eight_handled_swrod_divergent_sila_divine_general_mahoraga",
+      "requiredCount": 1,
+      "rankRequirement": 5,
+      "rewards": [
+        {
+          "items": [
+            {
+              "item": "jujutsucraft:item_master_domain_amplification",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special_slayer",
+      "name": "Curse Slayer",
+      "description": "You are the chosen one. Exorcise 200 cursed spirits to prove your worth.",
+      "type": "SPECIAL",
+      "objective": "KILL_CURSED_SPIRITS",
+      "target": "",
+      "requiredCount": 200,
+      "rankRequirement": 3,
+      "rewards": [
+        {
+          "items": [
+            {
+              "item": "jujutsucraft:inverted_spear_of_heaven",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

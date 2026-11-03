@@ -1,0 +1,5 @@
+-Xms1G
+-Xmx4G
+-XX:+UseG1GC
+-Dterminal.jline=false
+-Dterminal.ansi=false

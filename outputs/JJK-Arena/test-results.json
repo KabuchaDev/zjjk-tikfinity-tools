@@ -1,0 +1,146 @@
+{
+  "pass": true,
+  "at": "2026-10-05T01:59:14.208Z",
+  "results": [
+    {
+      "command": "jjkarena start",
+      "result": "Match started. Ronaldo=red, Messi=blue.\n"
+    },
+    {
+      "command": "jjkarena spawn red basic 1 TestRed",
+      "result": "Queued 1 basic for red; queue=1; active=0\n"
+    },
+    {
+      "command": "jjkarena spawn blue basic 1 TestBlue",
+      "result": "Queued 1 basic for blue; queue=1; active=0\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=1000 blueHP=1000 maxHP=1000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=0:0 intermission=0\nred basic hp=40.0 x=-51.2 z=-17.4\nblue basic hp=40.0 x=51.2 z=0.0\n"
+    },
+    {
+      "command": "jjkarena pause",
+      "result": "Paused; new spawns rejected.\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=true redHP=1000 blueHP=1000 maxHP=1000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=0:0 intermission=0\nred basic hp=40.0 x=-51.0 z=-17.4\nblue basic hp=40.0 x=51.0 z=0.0\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=true redHP=1000 blueHP=1000 maxHP=1000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=0:0 intermission=0\nred basic hp=40.0 x=-51.0 z=-17.4\nblue basic hp=40.0 x=51.0 z=0.0\n"
+    },
+    {
+      "command": "jjkarena spawn red basic",
+      "result": "Arena is not running (start/resume first). No troop queued.\n"
+    },
+    {
+      "command": "jjkarena resume",
+      "result": "Resumed.\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=1000 blueHP=1000 maxHP=1000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=0:0 intermission=0\nred basic hp=40.0 x=-35.2 z=-15.1\nblue basic hp=40.0 x=35.0 z=0.0\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=1000 blueHP=1000 maxHP=1000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=0:0 intermission=0\nred basic hp=40.0 x=-19.4 z=-12.8\nblue basic hp=40.0 x=19.0 z=0.0\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=1000 blueHP=1000 maxHP=1000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=0:0 intermission=0\nred basic hp=40.0 x=-4.2 z=-8.3\nblue basic hp=40.0 x=3.7 z=-2.9\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=1000 blueHP=1000 maxHP=1000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=8 coreHits=0 wins=0:0 intermission=0\nred basic hp=24.0 x=-1.2 z=-6.3\nblue basic hp=24.0 x=0.8 z=-4.9\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=1000 blueHP=1000 maxHP=1000 red=1 blue=1 queuedRed=0 queuedBlue=0 hits=18 coreHits=0 wins=0:0 intermission=0\nred basic hp=4.0 x=-1.2 z=-6.3\nblue basic hp=4.0 x=0.8 z=-4.9\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=1000 blueHP=1000 maxHP=1000 red=0 blue=0 queuedRed=0 queuedBlue=0 hits=20 coreHits=0 wins=0:0 intermission=0\n"
+    },
+    {
+      "command": "jjkarena corehp 10",
+      "result": "Core HP updated; match reset.\n"
+    },
+    {
+      "command": "jjkarena start",
+      "result": "Match started. Ronaldo=red, Messi=blue.\n"
+    },
+    {
+      "command": "jjkarena spawn red basic 1 CoreTest",
+      "result": "Queued 1 basic for red; queue=1; active=0\n"
+    },
+    {
+      "command": "execute in jjkarena:battlefield as @e[tag=jjkarena_red] run tp @s 64 81 0",
+      "result": "Teleported RONALDO | CoreTest to 64.500000, 81.000000, 0.500000\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=false paused=false redHP=10 blueHP=0 maxHP=10 red=0 blue=0 queuedRed=0 queuedBlue=0 hits=0 coreHits=3 wins=1:0 intermission=240\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=false paused=false redHP=10 blueHP=0 maxHP=10 red=0 blue=0 queuedRed=0 queuedBlue=0 hits=0 coreHits=3 wins=1:0 intermission=140\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=false paused=false redHP=10 blueHP=0 maxHP=10 red=0 blue=0 queuedRed=0 queuedBlue=0 hits=0 coreHits=3 wins=1:0 intermission=40\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=10 blueHP=10 maxHP=10 red=0 blue=0 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=1:0 intermission=0\n"
+    },
+    {
+      "command": "jjkarena corehp 1000",
+      "result": "Core HP updated; match reset.\n"
+    },
+    {
+      "command": "jjkarena start",
+      "result": "Match started. Ronaldo=red, Messi=blue.\n"
+    },
+    {
+      "command": "jjkarena spawn blue basic 15 CapTest",
+      "result": "Queued 15 basic for blue; queue=15; active=0\n"
+    },
+    {
+      "command": "jjkarena spawn blue basic 15 CapTest",
+      "result": "Queued 15 basic for blue; queue=30; active=0\n"
+    },
+    {
+      "command": "jjkarena spawn blue basic 15 CapTest",
+      "result": "Queued 15 basic for blue; queue=45; active=0\n"
+    },
+    {
+      "command": "jjkarena spawn blue basic 15 CapTest",
+      "result": "Queued 15 basic for blue; queue=60; active=0\n"
+    },
+    {
+      "command": "jjkarena spawn blue basic 15 CapTest",
+      "result": "Queued 0 basic for blue; queue=60; active=0\n"
+    },
+    {
+      "command": "jjkarena spawn blue basic 15 CapTest",
+      "result": "Queued 0 basic for blue; queue=60; active=0\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=true paused=false redHP=1000 blueHP=1000 maxHP=1000 red=0 blue=4 queuedRed=0 queuedBlue=56 hits=0 coreHits=0 wins=1:0 intermission=0\nblue basic hp=40.0 x=48.8 z=-17.1\nblue basic hp=40.0 x=50.4 z=0.0\nblue basic hp=40.0 x=52.0 z=17.6\nblue basic hp=40.0 x=53.6 z=-17.8\n"
+    },
+    {
+      "command": "jjkarena reset",
+      "result": "Troops cleared, cores restored. Start when ready.\n"
+    },
+    {
+      "command": "jjkarena status",
+      "result": "built=true building=no running=false paused=false redHP=1000 blueHP=1000 maxHP=1000 red=0 blue=0 queuedRed=0 queuedBlue=0 hits=0 coreHits=0 wins=1:0 intermission=0\n"
+    },
+    {
+      "command": "forge tps",
+      "result": "Dim minecraft:overworld (minecraft:overworld): Mean tick time: 0.639 ms. Mean TPS: 20.000\nDim lostcities:lostcity (lostcities:lostcity): Mean tick time: 0.010 ms. Mean TPS: 20.000\nDim jjkarena:battlefield (jjkarena:battlefield): Mean tick time: 0.282 ms. Mean TPS: 20.000\nDim minecraft:the_nether (minecraft:the_nether): Mean tick time: 0.006 ms. Mean TPS: 20.000\nDim minecraft:the_end (minecraft:the_end): Mean tick time: 0.004 ms. Mean TPS: 20.000\nDim jujutsucraft:cursed_spirit_manipulation_dimension (jujutsucraft:cursed_spirit_manipulation_dimension): Mean tick time: 0.004 ms. Mean TPS: 20.000\nDim jujutsucrafts:tombs_of_the_star_corridor (jujutsucrafts:tombs_of_the_star_corridor): Mean tick time: 0.004 ms. Mean TPS: 20.000\nOverall: Mean tick time: 0.991 ms. Mean TPS: 20.000\n"
+    }
+  ]
+}

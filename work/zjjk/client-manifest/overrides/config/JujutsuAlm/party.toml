@@ -1,0 +1,12 @@
+
+#Party System Configuration
+[party]
+	#Maximum number of members in a party (including the leader)
+	#Range: 2 ~ 100
+	max_party_size = 10
+	#If true, party members cannot damage each other directly.
+	#Note: Summons will ALWAYS ignore party members regardless of this setting.
+	friendly_fire_disabled = true
+	#If true, party members are protected from domain sure-hit attacks and effects.
+	block_domain_sure_hits_for_party_members = true
+

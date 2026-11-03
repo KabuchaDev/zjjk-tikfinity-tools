@@ -1,0 +1,8 @@
+{
+  "minecraftVersion": "1.21.4",
+  "serverAddress": "127.0.0.1",
+  "serverPort": 25565,
+  "serverTapPort": 4567,
+  "serverTapKey": "CHANGE_ME_SERVERTAPKEY",
+  "javaPath": "C:\\Users\\PHAT\\AppData\\Roaming\\.minecraft\\runtime\\java-runtime-delta\\windows\\java-runtime-delta\\bin\\java.exe"
+}

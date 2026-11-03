@@ -1,0 +1,31 @@
+KET QUA CAI DAT - 2026-10-05
+
+Zeefski Jujutsu Kaisen Craft 3.2.1
+Minecraft 1.20.1 / Forge 47.4.3 / Java 17.0.15
+Nguon: goi server 8510031 cua tac gia Zeefski tren CurseForge.
+
+DA KIEM TRA:
+- 86 tep mod trong server khop SHA-256 voi cac tep tuong ung trong client TLauncher 3.2.1.
+- Khoi dong lan dau thanh cong: Done; tao world-jujutsu va cac dimension cua mod.
+- Chi lang nghe tren 127.0.0.1:25566 va RCON 127.0.0.1:25576.
+- Lenh list va forge tps qua RCON hoat dong.
+- Mat khau RCON sai bi tu choi.
+- Trieu hoi jujutsucraft:miwa_kasumi thanh cong; tim thay 1 nhan vat thu.
+- Da xoa nhan vat thu va bo forceload cua phep thu.
+- save-all flush thanh cong.
+- Tat bang stop-server.ps1 thanh cong; tat ca dimension da duoc luu.
+- Tao ban sao luu dau tien; zip co level.dat, server.properties va 265 muc.
+- Khoi dong lai thanh cong, khoang 29 giay trong lan thu nay.
+- TPS sau khoi dong lai: 20.000; trung binh ~0.690 ms/tick khi khong co nguoi choi.
+- Sao luu khi server dang chay bi chan dung cach, khong tao zip thieu du lieu.
+- Cac script PowerShell va Node vuot qua kiem tra cu phap.
+
+GIOI HAN KIEM TRA:
+- Chua xac nhan nguoi choi vao server, chien dau voi boss hay hieu nang livestream.
+- Mot so mod ghi canh bao Mixin/config luc nap. Hai lan khoi dong deu den Done va khong dung server; day khong phai bao dam tat ca tinh nang cua mod deu khong co loi.
+- Chua noi qua TikTok vao server Forge. Ket noi ServerTap cua Paper cu khong tu chuyen sang server nay.
+
+TRANG THAI KHI BAN GIAO:
+- Server dang chay nen, san sang tai 127.0.0.1:25566.
+- Dung TAT-SERVER.cmd de tat va BAT-SERVER.cmd de mo lai.
+- Xem HUONG-DAN.md de vao choi va sao luu.
